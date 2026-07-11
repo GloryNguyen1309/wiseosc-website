@@ -66,11 +66,14 @@ export default function ServicesPage() {
       <div className="container mx-auto px-4 text-center relative z-10">
         <SectionBadge icon={"💼"} text="Services" />
         <h1 className="text-5xl md:text-6xl font-bold mb-6">
-          Wise Accelerate Software Development&nbsp;
+          WiseOSC Software Development&nbsp;
           <span className="text-blue-400">Services</span>
         </h1>
         <p className="text-gray-300 text-lg max-w-3xl mx-auto mb-8">
-          Discover comprehensive software development services from Wise Accelerate. From AI engineering to mobile apps, Wise Accelerate delivers cutting-edge solutions tailored to your business needs. Visit our website to learn more.
+          Discover comprehensive software development services from WiseOSC.
+          From AI engineering to mobile apps, WiseOSC delivers cutting-edge
+          solutions tailored to your business needs. Visit our website to learn
+          more.
         </p>
       </div>
       {/* Services Section */}
@@ -82,8 +85,8 @@ export default function ServicesPage() {
                 idx < 2
                   ? "col-span-3"
                   : idx === 2 || idx === 5
-                  ? "col-span-2"
-                  : "col-span-1"
+                    ? "col-span-2"
+                    : "col-span-1"
               }
               {...service}
               key={service.title}
@@ -108,9 +111,10 @@ export default function ServicesPage() {
       <Container className="max-w-[1400px] flex gap-2 h-[200px] items-center justify-start">
         <SectionBadge text="How We Work" className="h-fit w-fit mx-0" />
         <p className="text-4xl">
-          <span className="text-blue-300 font-bold">Wise Accelerate's methodology</span>
+          <span className="text-blue-300 font-bold">WiseOSC's methodology</span>
           has been tested and <br /> proven{" "}
-          <span className="text-blue-300 font-bold">successful</span> across hundreds of projects. Trust Wise Accelerate for results.
+          <span className="text-blue-300 font-bold">successful</span> across
+          hundreds of projects. Trust WiseOSC for results.
         </p>
       </Container>
       <Container className="max-w-[1400px]">

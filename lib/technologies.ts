@@ -25,7 +25,7 @@ function buildTech(slug: string, name: string): Technology {
     name,
     meta: {
       title: `Hire ${name} Developers`,
-      description: `Wise Accelerate provides expert ${name} development. Count on us for architecture, performance optimization, and scalable solutions. Trusted by 150+ companies.`,
+      description: `WiseOSC provides expert ${name} development. Count on us for architecture, performance optimization, and scalable solutions. Trusted by 150+ companies.`,
     },
     content: {
       heroSubtitle: `${nameForTitle.toUpperCase().replace(/\s/g, " ")} DEVELOPMENT COMPANY`,
@@ -41,7 +41,7 @@ function buildTech(slug: string, name: string): Technology {
       meta: {
         title: "Hire AI & LLM Engineers | Generative AI & Agentic Workflows",
         description:
-          "Wise Accelerate builds production GenAI: LLM APIs, RAG, embeddings, vector search, agentic workflows with tool use, guardrails, and MLOps. Trusted delivery for teams shipping real AI features.",
+          "WiseOSC builds production GenAI: LLM APIs, RAG, embeddings, vector search, agentic workflows with tool use, guardrails, and MLOps. Trusted delivery for teams shipping real AI features.",
       },
       content: {
         ...base.content,
@@ -49,7 +49,7 @@ function buildTech(slug: string, name: string): Technology {
         heroTitle:
           "Ship LLM features, RAG, and agentic workflows—with engineering discipline.",
         heroDescription:
-          "From retrieval-augmented generation to multi-step agents, Wise Accelerate combines model APIs, data pipelines, and safety patterns so AI ships as reliable product—not fragile demos.",
+          "From retrieval-augmented generation to multi-step agents, WiseOSC combines model APIs, data pipelines, and safety patterns so AI ships as reliable product—not fragile demos.",
         ctaFormTitle: "Tell us about your AI or LLM roadmap.",
       },
     };
@@ -61,7 +61,7 @@ function buildTech(slug: string, name: string): Technology {
       meta: {
         title: "Hire .NET Developers | ASP.NET Core, Azure & C#",
         description:
-          "Wise Accelerate builds ASP.NET Core APIs, EF Core data layers, Azure-native .NET, and migration from .NET Framework. Production C# with security, CI/CD, and observability.",
+          "WiseOSC builds ASP.NET Core APIs, EF Core data layers, Azure-native .NET, and migration from .NET Framework. Production C# with security, CI/CD, and observability.",
       },
       content: {
         ...base.content,
@@ -69,7 +69,7 @@ function buildTech(slug: string, name: string): Technology {
         heroTitle:
           "Build ASP.NET Core services, Azure workloads, and modern C# platforms—with enterprise discipline.",
         heroDescription:
-          "From minimal APIs and microservices to EF Core and secure Azure deployments, Wise Accelerate delivers .NET that scales: identity, messaging, migrations, and long-term maintenance.",
+          "From minimal APIs and microservices to EF Core and secure Azure deployments, WiseOSC delivers .NET that scales: identity, messaging, migrations, and long-term maintenance.",
         ctaFormTitle: "Discuss your .NET or Azure roadmap.",
       },
     };
@@ -81,7 +81,7 @@ function buildTech(slug: string, name: string): Technology {
       meta: {
         title: "Hire Python Developers | FastAPI, Django & Data-Ready APIs",
         description:
-          "Wise Accelerate ships FastAPI and Django backends, async Python, Celery workers, and data/ML-adjacent services on AWS or Kubernetes—with tests, typing, and observability.",
+          "WiseOSC ships FastAPI and Django backends, async Python, Celery workers, and data/ML-adjacent services on AWS or Kubernetes—with tests, typing, and observability.",
       },
       content: {
         ...base.content,
@@ -89,7 +89,7 @@ function buildTech(slug: string, name: string): Technology {
         heroTitle:
           "Production Python APIs, workers, and data pipelines—without cutting corners on quality.",
         heroDescription:
-          "FastAPI, Django, async I/O, queues, and Dockerized deploys: Wise Accelerate builds Python services that match your scale, integrations, and compliance expectations.",
+          "FastAPI, Django, async I/O, queues, and Dockerized deploys: WiseOSC builds Python services that match your scale, integrations, and compliance expectations.",
         ctaFormTitle: "Tell us about your Python product or platform.",
       },
     };
@@ -101,7 +101,7 @@ function buildTech(slug: string, name: string): Technology {
       meta: {
         title: "Hire Java Developers | Spring Boot & Cloud-Native JVM",
         description:
-          "Wise Accelerate delivers Spring Boot microservices, JVM tuning, Kafka integrations, and Kubernetes-ready Java—with resilience patterns, observability, and secure CI/CD.",
+          "WiseOSC delivers Spring Boot microservices, JVM tuning, Kafka integrations, and Kubernetes-ready Java—with resilience patterns, observability, and secure CI/CD.",
       },
       content: {
         ...base.content,
@@ -109,7 +109,7 @@ function buildTech(slug: string, name: string): Technology {
         heroTitle:
           "Spring Boot, JVM performance, and event-driven services built for serious traffic.",
         heroDescription:
-          "Enterprise APIs, Hibernate/JPA, resilience to Kafka outages, and OpenTelemetry traces: Wise Accelerate engineers Java stacks your platform and security teams can operate with confidence.",
+          "Enterprise APIs, Hibernate/JPA, resilience to Kafka outages, and OpenTelemetry traces: WiseOSC engineers Java stacks your platform and security teams can operate with confidence.",
         ctaFormTitle: "Plan your Java or Spring modernization.",
       },
     };

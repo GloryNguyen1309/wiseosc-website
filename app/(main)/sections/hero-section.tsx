@@ -74,9 +74,9 @@ function HeroSection({ certificates = [] }: HeroSectionProps) {
         </h1>
 
         <p className="max-w-2xl font-manrope text-base font-light leading-relaxed text-white/85 md:text-lg">
-          Elite Vietnamese engineers with agentic workflows. Wise Accelerate
-          deliver AI-powered solutions in 3 months - what generic offshore takes
-          12 to match, at a third of local hire cost.
+          Elite Vietnamese engineers with agentic workflows. WiseOSC deliver
+          AI-powered solutions in 3 months - what generic offshore takes 12 to
+          match, at a third of local hire cost.
         </p>
 
         {freeTrial?.isCampaignActive || certificates.length > 0 ? (

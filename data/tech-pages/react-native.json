@@ -1,77 +1,77 @@
 {
   "services": {
-    "title": "React Native Development Services from Wise Accelerate",
+    "title": "React Native Development Services from WiseOSC",
     "items": [
       {
         "title": "Cross-Platform iOS & Android Apps",
         "paragraphs": [
-          "Wise Accelerate builds production React Native applications that share business logic between iOS and Android while still respecting platform conventions—navigation patterns, safe areas, permissions, and store guidelines.",
-          "From greenfield apps to scaling existing codebases, Wise Accelerate structures screens, navigation (React Navigation / Expo Router), and feature modules so teams can parallelize work without constant merge pain."
+          "WiseOSC builds production React Native applications that share business logic between iOS and Android while still respecting platform conventions—navigation patterns, safe areas, permissions, and store guidelines.",
+          "From greenfield apps to scaling existing codebases, WiseOSC structures screens, navigation (React Navigation / Expo Router), and feature modules so teams can parallelize work without constant merge pain."
         ]
       },
       {
         "title": "Expo & Managed Workflows",
         "paragraphs": [
-          "When Expo fits your product, Wise Accelerate leverages EAS Build, EAS Update for over-the-air fixes, and a streamlined dev client workflow. Wise Accelerate only ejects or adds custom native code when you need capabilities beyond the managed API surface.",
-          "Expo accelerates iteration for many teams; Wise Accelerate still hardens releases with staged rollouts, crash reporting, and clear versioning so OTA updates never surprise users."
+          "When Expo fits your product, WiseOSC leverages EAS Build, EAS Update for over-the-air fixes, and a streamlined dev client workflow. WiseOSC only ejects or adds custom native code when you need capabilities beyond the managed API surface.",
+          "Expo accelerates iteration for many teams; WiseOSC still hardens releases with staged rollouts, crash reporting, and clear versioning so OTA updates never surprise users."
         ]
       },
       {
         "title": "Native Modules & Bridge Integration",
         "paragraphs": [
-          "Some features require Kotlin/Swift: biometrics, Bluetooth, AR, or proprietary SDKs. Wise Accelerate implements native modules with clear JS contracts, error handling, and threading considerations so the bridge stays stable under load.",
-          "Wise Accelerate documents integration steps for your in-house native developers and keeps upgrade paths aligned with React Native releases."
+          "Some features require Kotlin/Swift: biometrics, Bluetooth, AR, or proprietary SDKs. WiseOSC implements native modules with clear JS contracts, error handling, and threading considerations so the bridge stays stable under load.",
+          "WiseOSC documents integration steps for your in-house native developers and keeps upgrade paths aligned with React Native releases."
         ]
       },
       {
         "title": "Performance: Lists, Animations & Startup Time",
         "paragraphs": [
-          "Mobile users feel jank instantly. Wise Accelerate optimizes FlatList/SectionList patterns, memoization, image sizing, and Hermes-friendly bundles. Animations use Reanimated where appropriate for 60fps interactions.",
-          "Startup time matters for retention: Wise Accelerate analyzes cold start, defers non-critical work, and trims unnecessary dependencies so your app feels snappy on mid-range devices—not only flagships."
+          "Mobile users feel jank instantly. WiseOSC optimizes FlatList/SectionList patterns, memoization, image sizing, and Hermes-friendly bundles. Animations use Reanimated where appropriate for 60fps interactions.",
+          "Startup time matters for retention: WiseOSC analyzes cold start, defers non-critical work, and trims unnecessary dependencies so your app feels snappy on mid-range devices—not only flagships."
         ]
       },
       {
         "title": "Offline, Sync & Push Notifications",
         "paragraphs": [
-          "Wise Accelerate designs offline-first or optimistic UIs when connectivity is unreliable, with clear conflict resolution and background sync policies. Push notification flows integrate with FCM/APNs and respect user consent and OS rules.",
+          "WiseOSC designs offline-first or optimistic UIs when connectivity is unreliable, with clear conflict resolution and background sync policies. Push notification flows integrate with FCM/APNs and respect user consent and OS rules.",
           "Deep linking and universal links are wired so marketing and support can drive users to the right screen inside the app."
         ]
       },
       {
         "title": "App Store Delivery & Maintenance",
         "paragraphs": [
-          "Wise Accelerate supports release trains: beta distribution (TestFlight, Play Internal Testing), store listings, screenshots, and compliance questionnaires for permissions and data handling.",
+          "WiseOSC supports release trains: beta distribution (TestFlight, Play Internal Testing), store listings, screenshots, and compliance questionnaires for permissions and data handling.",
           "Ongoing work includes React Native upgrades, dependency audits, OS compatibility (new iOS/Android behaviors), and monitoring crashes in production with actionable dashboards."
         ]
       }
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for React Native Development",
+    "title": "Why Choose WiseOSC for React Native Development",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": "React Native mobile developers at Wise Accelerate",
+    "imageAlt": "React Native mobile developers at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Mobile-first delivery discipline",
-        "body": "Wise Accelerate ships apps that pass store review and behave well in the wild: permissions, background modes, memory, and battery are considered alongside feature velocity. React Native is not “web on phone”—Wise Accelerate treats it as real mobile engineering."
+        "body": "WiseOSC ships apps that pass store review and behave well in the wild: permissions, background modes, memory, and battery are considered alongside feature velocity. React Native is not “web on phone”—WiseOSC treats it as real mobile engineering."
       },
       {
         "icon": "globe",
         "title": "Works with your release process",
-        "body": "Wise Accelerate fits your CI/CD (EAS, Fastlane, Bitrise, GitHub Actions), environments, and staged rollouts. Designers and PMs get builds early via TestFlight/Play tracks so feedback lands before users do."
+        "body": "WiseOSC fits your CI/CD (EAS, Fastlane, Bitrise, GitHub Actions), environments, and staged rollouts. Designers and PMs get builds early via TestFlight/Play tracks so feedback lands before users do."
       },
       {
         "icon": "zap",
         "title": "Engineers who know the RN stack",
-        "body": "Wise Accelerate's React Native developers understand navigation, native builds, Hermes, and platform quirks. They collaborate with backend teams on APIs and with native teams when bridges are required."
+        "body": "WiseOSC's React Native developers understand navigation, native builds, Hermes, and platform quirks. They collaborate with backend teams on APIs and with native teams when bridges are required."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The React Native Ecosystem Wise Accelerate Uses in Client Projects",
+    "title": "The React Native Ecosystem WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "Core & runtime",
@@ -173,7 +173,7 @@
           },
           {
             "heading": "Brownfield & existing apps",
-            "body": "React Native can be adopted incrementally inside existing native apps (brownfield) or as greenfield. Wise Accelerate helps assess integration cost and team skills before committing."
+            "body": "React Native can be adopted incrementally inside existing native apps (brownfield) or as greenfield. WiseOSC helps assess integration cost and team skills before committing."
           }
         ]
       },
@@ -202,19 +202,19 @@
       },
       {
         "question": "Should we use Expo?",
-        "answer": "Expo is excellent for many teams: faster env setup, OTA updates, and managed builds. If you need custom native code not covered by Expo modules, Wise Accelerate evaluates prebuild workflow or a bare workflow with clear trade-offs."
+        "answer": "Expo is excellent for many teams: faster env setup, OTA updates, and managed builds. If you need custom native code not covered by Expo modules, WiseOSC evaluates prebuild workflow or a bare workflow with clear trade-offs."
       },
       {
         "question": "How do you ensure app performance on low-end devices?",
-        "answer": "Wise Accelerate profiles on real devices, optimizes lists and images, uses Hermes, and avoids unnecessary re-renders. Performance budgets and crash-free session targets are tracked release over release."
+        "answer": "WiseOSC profiles on real devices, optimizes lists and images, uses Hermes, and avoids unnecessary re-renders. Performance budgets and crash-free session targets are tracked release over release."
       },
       {
         "question": "Can React Native apps match native look and feel?",
-        "answer": "Yes, when designers and engineers align on platform guidelines. Wise Accelerate uses platform-specific components where it matters and tests on both iOS and Android—not only simulators."
+        "answer": "Yes, when designers and engineers align on platform guidelines. WiseOSC uses platform-specific components where it matters and tests on both iOS and Android—not only simulators."
       },
       {
         "question": "How do updates and app store releases work?",
-        "answer": "JS-level fixes can ship via OTA (where policy allows) with EAS Update; native changes require store builds. Wise Accelerate coordinates versioning, release notes, and rollback plans."
+        "answer": "JS-level fixes can ship via OTA (where policy allows) with EAS Update; native changes require store builds. WiseOSC coordinates versioning, release notes, and rollback plans."
       },
       {
         "question": "What maintenance is required after launch?",

@@ -16,7 +16,7 @@ export async function GET(_request: Request) {
       businessChallenge:
         "SIT needed to capture millions of student micro-interactions in real time and turn them into actionable teaching insights without introducing latency during high-traffic academic periods.",
       projectDescription:
-        "Singapore Institute of Technology engaged Wise Accelerate to build a real-time learning analytics system capable of ingesting, processing, and interpreting millions of learning events without disrupting student experience. The platform combines resilient event ingestion, cloud-native analytics, and actionable educator dashboards so teaching teams can move from hindsight reporting to immediate intervention. The result is a production-ready data backbone that supports evidence-led education decisions, faster curriculum adjustments, and sustained visibility into engagement signals across large cohorts.",
+        "Singapore Institute of Technology engaged WiseOSC to build a real-time learning analytics system capable of ingesting, processing, and interpreting millions of learning events without disrupting student experience. The platform combines resilient event ingestion, cloud-native analytics, and actionable educator dashboards so teaching teams can move from hindsight reporting to immediate intervention. The result is a production-ready data backbone that supports evidence-led education decisions, faster curriculum adjustments, and sustained visibility into engagement signals across large cohorts.",
       serviceProvided: [
         "Event Pipeline Architecture",
         "Cloud Data Platform Engineering",
@@ -68,12 +68,12 @@ export async function GET(_request: Request) {
         },
         {
           title: "Project Collaboration",
-          subtitle: "Project collaboration between Wise Accelerate and client",
+          subtitle: "Project collaboration between WiseOSC and client",
           url: "/work/sit/sit-5.png",
         },
         {
           title: "Project Collaboration",
-          subtitle: "Project collaboration between Wise Accelerate and client",
+          subtitle: "Project collaboration between WiseOSC and client",
           url: "/work/sit/sit-6.png",
         },
       ],
@@ -223,7 +223,7 @@ export async function GET(_request: Request) {
       businessChallenge:
         "Zapiio needed to automate due diligence across a fragmented property market where decisions require combining live listings, historical trends, and infrastructure context.",
       projectDescription:
-        "Zapiio’s mission was to remove manual, error-prone due diligence from property investing workflows. Wise Accelerate designed and engineered an intelligent investment ecosystem that continuously ingests property, registry, and market context data, then applies agentic analysis to produce faster, explainable assessments before users even begin manual review. This architecture gave brokers and investors a materially stronger decision-support layer, combining speed, freshness, and strategic context in a single operating environment.",
+        "Zapiio’s mission was to remove manual, error-prone due diligence from property investing workflows. WiseOSC designed and engineered an intelligent investment ecosystem that continuously ingests property, registry, and market context data, then applies agentic analysis to produce faster, explainable assessments before users even begin manual review. This architecture gave brokers and investors a materially stronger decision-support layer, combining speed, freshness, and strategic context in a single operating environment.",
       serviceProvided: [
         "AI Product and Workflow Design",
         "High-Scale Data Platform Engineering",
@@ -254,22 +254,26 @@ export async function GET(_request: Request) {
       images: [
         {
           title: "Investment Opportunities",
-          subtitle: "Curated list of residential and commercial investment opportunities",
+          subtitle:
+            "Curated list of residential and commercial investment opportunities",
           url: "/work/zapiio/zapiio-1.png",
         },
         {
           title: "Property Detail View",
-          subtitle: "Detailed property metrics, yield projections, and risk profile",
+          subtitle:
+            "Detailed property metrics, yield projections, and risk profile",
           url: "/work/zapiio/zapiio-2.png",
         },
         {
           title: "Portfolio Overview",
-          subtitle: "Portfolio allocation, distributions, and performance over time",
+          subtitle:
+            "Portfolio allocation, distributions, and performance over time",
           url: "/work/zapiio/zapiio-3.png",
         },
         {
           title: "Transaction Workflow",
-          subtitle: "Guided investment and settlement workflow for new investors",
+          subtitle:
+            "Guided investment and settlement workflow for new investors",
           url: "/work/zapiio/zapiio-4.png",
         },
         {
@@ -422,4 +426,3 @@ export async function GET(_request: Request) {
     data,
   });
 }
-

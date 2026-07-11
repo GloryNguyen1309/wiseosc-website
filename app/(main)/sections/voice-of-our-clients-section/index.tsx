@@ -10,7 +10,7 @@ const items = [
   {
     leftImageSrc: "/voice-clients/Charbel-Zeaiter.png",
     companyImageSrc: "/logo3.png",
-    description: `Working with Wise Accelerate has been transformative for our development process. Wise Accelerate's staff augmentation model allowed us to seamlessly integrate skilled developers who quickly became valuable members of our team. The quality of work and attention to detail from Wise Accelerate exceeded our expectations.`,
+    description: `Working with WiseOSC has been transformative for our development process. WiseOSC's staff augmentation model allowed us to seamlessly integrate skilled developers who quickly became valuable members of our team. The quality of work and attention to detail from WiseOSC exceeded our expectations.`,
     title: "Charbel Zeaiter / CEO",
     label: "Faster Zebra",
   },
@@ -36,7 +36,7 @@ const VoiceOfOurClientsSection = () => {
           <div className="text-[21px]">VOICE OF OUR CLIENTS</div>
           <div className="flex gap-[32px] pb-[3.75rem] items-center">
             <h2 className="text-[32px] lg:text-[44px] bold">
-              What our clients say about working with Wise Accelerate
+              What our clients say about working with WiseOSC
             </h2>
             <div className="flex gap-4">
               <ArrowLeft

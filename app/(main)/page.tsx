@@ -35,7 +35,7 @@ export default function Home() {
         <TrustedBySection />
         <img
           src="/team-banner.jpg"
-          alt="Wise Accelerate Team"
+          alt="WiseOSC Team"
           className="object-cover w-full h-auto"
         />
 

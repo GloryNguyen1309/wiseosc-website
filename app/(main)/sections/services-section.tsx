@@ -66,9 +66,9 @@ function ServicesSection() {
             </span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Wise Accelerate holds exceptional expertise in 3 main areas: AI
-            Engineering, Fullstack Web Development, and Mobile App Development.
-            Let's discover what Wise Accelerate can build for you.
+            WiseOSC holds exceptional expertise in 3 main areas: AI Engineering,
+            Fullstack Web Development, and Mobile App Development. Let's
+            discover what WiseOSC can build for you.
           </p>
         </div>
 

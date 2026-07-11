@@ -1,14 +1,7 @@
 import Container from "@/components/container";
-import { BlogListingImage } from "@/components/blog-listing-image";
 import { CTASection } from "../(main)/sections/cta-section";
-import { getPublishedBlogs } from "@/lib/blogs";
-import Link from "next/link";
-import { Card, CardContent } from "@/components/ui/card";
 
-export const revalidate = 60;
-
-export default async function BlogsPage() {
-  const blogs = await getPublishedBlogs();
+export default function BlogsPage() {
 
   return (
     <main className="overflow-x-hidden">
@@ -35,72 +28,9 @@ export default async function BlogsPage() {
       </section>
       <section className="bg-[#01071A] py-12 pb-24 md:py-24 md:pb-24">
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-8 px-4 sm:px-6 lg:px-8">
-            {blogs.map((blog) => {
-              const blogDate = new Date(blog.createdAt).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              });
-              
-              // Clean markdown content: remove markdown syntax, image links, HTML tags
-              const cleanContent = blog.content
-                .replace(/!\[.*?\]\(.*?\)/g, '') // Remove markdown images ![alt](url)
-                .replace(/\[.*?\]\(.*?\)/g, '') // Remove markdown links [text](url)
-                .replace(/<[^>]*>/g, '') // Remove HTML tags
-                .replace(/#{1,6}\s+/g, '') // Remove markdown headers
-                .replace(/\*\*([^*]+)\*\*/g, '$1') // Remove bold **text**
-                .replace(/\*([^*]+)\*/g, '$1') // Remove italic *text*
-                .replace(/`([^`]+)`/g, '$1') // Remove inline code `code`
-                .replace(/```[\s\S]*?```/g, '') // Remove code blocks
-                .replace(/^\s*[-*+]\s+/gm, '') // Remove list markers
-                .replace(/^\s*\d+\.\s+/gm, '') // Remove numbered list markers
-                .replace(/\n+/g, ' ') // Replace newlines with spaces
-                .trim();
-              
-              const preview = cleanContent.substring(0, 200);
-              
-              return (
-                <Link
-                  key={blog.id}
-                  href={`/blogs/${blog.slug}`}
-                  className="group block w-full"
-                >
-                  <Card className="overflow-hidden rounded-2xl border border-gray-600 bg-transparent text-white transition-all hover:border-blue-500 hover:shadow-[0_0_30px_rgba(17,156,255,0.35)] sm:rounded-3xl">
-                    <div className="grid grid-cols-1 md:grid-cols-[minmax(340px,520px)_minmax(0,1fr)] md:items-stretch">
-                      <div className="relative w-full min-h-[200px] overflow-hidden bg-[#0a1628] md:h-full md:min-h-[300px] md:rounded-l-3xl md:rounded-tr-none">
-                        <div className="relative aspect-[16/9] w-full sm:aspect-[16/10] md:absolute md:inset-0 md:aspect-auto md:min-h-0">
-                          <BlogListingImage
-                            src={
-                              blog.coverImageUrl ||
-                              "/placeholder.svg"
-                            }
-                            alt={blog.title}
-                          />
-                        </div>
-                      </div>
-                      <CardContent className="flex min-w-0 flex-col justify-center px-5 pb-7 pt-5 sm:px-6 md:px-8 md:py-10 md:pb-10">
-                        <h2 className="mb-3 text-left text-xl font-bold leading-snug tracking-tight text-balance sm:text-2xl md:text-3xl group-hover:text-blue-400 transition-colors">
-                          {blog.title}
-                        </h2>
-                        <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-left text-xs text-gray-400 sm:text-sm">
-                          <span>{blogDate}</span>
-                          <span className="hidden sm:inline">•</span>
-                          <span>Wise Accelerate Team</span>
-                        </div>
-                        <p className="line-clamp-3 text-left text-sm leading-relaxed text-gray-300 sm:line-clamp-2 sm:text-base">
-                          {preview}{preview.length === 200 ? '...' : ''}
-                        </p>
-                      </CardContent>
-                    </div>
-                  </Card>
-                </Link>
-              );
-            })}
-            {blogs.length === 0 && (
-              <p className="text-center text-slate-400">
-                No blogs yet. Check back soon.
-              </p>
-            )}
+          <p className="text-center text-slate-400">
+            No blogs yet. Check back soon.
+          </p>
         </div>
       </section>
       <section className="bg-[#01071A] pb-24 pt-10 md:py-16 md:pb-16">

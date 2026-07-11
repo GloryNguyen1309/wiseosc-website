@@ -1,40 +1,40 @@
 {
   "services": {
-    "title": "AWS Cloud Development Services from Wise Accelerate",
+    "title": "AWS Cloud Development Services from WiseOSC",
     "items": [
       {
         "title": "AWS Architecture & Well-Architected Reviews",
         "paragraphs": [
-          "Wise Accelerate designs AWS architectures that follow the Well-Architected pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. That means clear account and VPC boundaries, least-privilege IAM, encryption in transit and at rest, and disaster recovery patterns that match your RTO/RPO.",
-          "Workloads are documented with architecture diagrams, threat models, and runbooks. Wise Accelerate aligns landing zones, tagging, and governance so finance and security teams get predictable visibility as your footprint on AWS grows."
+          "WiseOSC designs AWS architectures that follow the Well-Architected pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. That means clear account and VPC boundaries, least-privilege IAM, encryption in transit and at rest, and disaster recovery patterns that match your RTO/RPO.",
+          "Workloads are documented with architecture diagrams, threat models, and runbooks. WiseOSC aligns landing zones, tagging, and governance so finance and security teams get predictable visibility as your footprint on AWS grows."
         ]
       },
       {
         "title": "AWS Serverless & Event-Driven Systems",
         "paragraphs": [
-          "Wise Accelerate builds and operates serverless stacks on AWS using Lambda, API Gateway, EventBridge, Step Functions, and SQS/SNS where they reduce undifferentiated heavy lifting. Cold start budgets, concurrency limits, and idempotent handlers are first-class concerns—not afterthoughts.",
-          "Event-driven designs decouple producers and consumers, improve resilience, and scale with traffic spikes. Wise Accelerate wires observability (structured logs, traces, metrics) so you can prove SLAs and debug production issues quickly."
+          "WiseOSC builds and operates serverless stacks on AWS using Lambda, API Gateway, EventBridge, Step Functions, and SQS/SNS where they reduce undifferentiated heavy lifting. Cold start budgets, concurrency limits, and idempotent handlers are first-class concerns—not afterthoughts.",
+          "Event-driven designs decouple producers and consumers, improve resilience, and scale with traffic spikes. WiseOSC wires observability (structured logs, traces, metrics) so you can prove SLAs and debug production issues quickly."
         ]
       },
       {
         "title": "Containers on AWS (ECS, EKS, Fargate)",
         "paragraphs": [
-          "Whether you need Kubernetes (EKS) or managed orchestration (ECS), Wise Accelerate implements secure clusters, workload identity, pod security, and upgrade strategies that keep you current without surprise outages. Fargate removes node patching overhead when it fits your cost profile.",
-          "CI/CD pipelines build, scan, sign, and promote images; GitOps or pipeline-as-code keeps environments reproducible. Wise Accelerate integrates service mesh or ingress patterns only when they earn their complexity."
+          "Whether you need Kubernetes (EKS) or managed orchestration (ECS), WiseOSC implements secure clusters, workload identity, pod security, and upgrade strategies that keep you current without surprise outages. Fargate removes node patching overhead when it fits your cost profile.",
+          "CI/CD pipelines build, scan, sign, and promote images; GitOps or pipeline-as-code keeps environments reproducible. WiseOSC integrates service mesh or ingress patterns only when they earn their complexity."
         ]
       },
       {
         "title": "AWS Data, Storage & Analytics",
         "paragraphs": [
-          "Wise Accelerate implements durable object storage with S3 (lifecycle, versioning, replication), relational workloads on RDS/Aurora, NoSQL on DynamoDB, caching with ElastiCache, and data lakes or warehouses when analytics demands it—always with backup, encryption, and access policies that match compliance needs.",
+          "WiseOSC implements durable object storage with S3 (lifecycle, versioning, replication), relational workloads on RDS/Aurora, NoSQL on DynamoDB, caching with ElastiCache, and data lakes or warehouses when analytics demands it—always with backup, encryption, and access policies that match compliance needs.",
           "Pipelines move data between systems with minimal duplication: streaming (Kinesis), batch (Glue/EMR where appropriate), and clear data contracts so downstream teams trust the numbers."
         ]
       },
       {
         "title": "AWS Networking, Security & Compliance",
         "paragraphs": [
-          "Wise Accelerate engineers VPCs, subnets, routing, NAT, and connectivity (VPC peering, Transit Gateway, VPN/Direct Connect) so traffic flows are explicit and auditable. Edge protection uses CloudFront, WAF, and Shield where threats warrant it.",
-          "Secrets live in Secrets Manager or Parameter Store; keys in KMS; IAM roles per workload—not long-lived keys in repos. Wise Accelerate maps controls to frameworks (SOC2, ISO, HIPAA-style patterns) through evidence-friendly design."
+          "WiseOSC engineers VPCs, subnets, routing, NAT, and connectivity (VPC peering, Transit Gateway, VPN/Direct Connect) so traffic flows are explicit and auditable. Edge protection uses CloudFront, WAF, and Shield where threats warrant it.",
+          "Secrets live in Secrets Manager or Parameter Store; keys in KMS; IAM roles per workload—not long-lived keys in repos. WiseOSC maps controls to frameworks (SOC2, ISO, HIPAA-style patterns) through evidence-friendly design."
         ]
       },
       {
@@ -47,31 +47,31 @@
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for AWS Development",
+    "title": "Why Choose WiseOSC for AWS Development",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": "AWS cloud engineers collaborating at Wise Accelerate",
+    "imageAlt": "AWS cloud engineers collaborating at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Production-grade AWS patterns",
-        "body": "Wise Accelerate ships workloads that survive real traffic: IAM boundaries, encryption, backups, and observability are built in—not bolted on after launch. You get clear ownership of accounts, environments, and deployment pipelines so your team can operate AWS confidently."
+        "body": "WiseOSC ships workloads that survive real traffic: IAM boundaries, encryption, backups, and observability are built in—not bolted on after launch. You get clear ownership of accounts, environments, and deployment pipelines so your team can operate AWS confidently."
       },
       {
         "icon": "globe",
         "title": "Flexible engagement models",
-        "body": "Augment your team for a migration or greenfield build, or outsource an outcome-based workstream. Wise Accelerate aligns to your timezone and tooling (Slack, Jira, Git) so AWS delivery feels like an extension of your org—not a black box."
+        "body": "Augment your team for a migration or greenfield build, or outsource an outcome-based workstream. WiseOSC aligns to your timezone and tooling (Slack, Jira, Git) so AWS delivery feels like an extension of your org—not a black box."
       },
       {
         "icon": "zap",
         "title": "Senior cloud engineers",
-        "body": "Wise Accelerate's AWS specialists have delivered multi-account foundations, serverless platforms, and large-scale data paths. They communicate trade-offs in plain language: cost vs. latency vs. operational load—so stakeholders make informed decisions."
+        "body": "WiseOSC's AWS specialists have delivered multi-account foundations, serverless platforms, and large-scale data paths. They communicate trade-offs in plain language: cost vs. latency vs. operational load—so stakeholders make informed decisions."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The AWS Ecosystem Wise Accelerate Uses in Client Projects",
+    "title": "The AWS Ecosystem WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "Compute",
@@ -168,7 +168,7 @@
           },
           {
             "heading": "3. Pay-as-you-go economics",
-            "body": "Usage-based pricing and savings instruments (Savings Plans, Reserved Instances) reward right-sizing and disciplined architecture. Cost visibility is a shared responsibility: Wise Accelerate helps you instrument, tag, and review spend."
+            "body": "Usage-based pricing and savings instruments (Savings Plans, Reserved Instances) reward right-sizing and disciplined architecture. Cost visibility is a shared responsibility: WiseOSC helps you instrument, tag, and review spend."
           }
         ]
       },
@@ -182,7 +182,7 @@
           },
           {
             "heading": "Migration & modernization",
-            "body": "Lift-and-shift to EC2, refactor to containers, or rebuild on serverless—each path has trade-offs. Wise Accelerate helps you sequence migrations, reduce risk, and validate cost and performance at each stage."
+            "body": "Lift-and-shift to EC2, refactor to containers, or rebuild on serverless—each path has trade-offs. WiseOSC helps you sequence migrations, reduce risk, and validate cost and performance at each stage."
           }
         ]
       },
@@ -192,7 +192,7 @@
         "sections": [
           {
             "heading": "Shared responsibility model",
-            "body": "AWS secures the cloud; customers secure workloads in the cloud. That means IAM policies, network segmentation, encryption choices, and patch processes remain your responsibility—Wise Accelerate helps you implement them consistently."
+            "body": "AWS secures the cloud; customers secure workloads in the cloud. That means IAM policies, network segmentation, encryption choices, and patch processes remain your responsibility—WiseOSC helps you implement them consistently."
           },
           {
             "heading": "Continuous change",
@@ -211,7 +211,7 @@
       },
       {
         "question": "How do you control costs on AWS?",
-        "answer": "Wise Accelerate uses tagging, budgets, rightsizing, Savings Plans or Reserved Instances where appropriate, and serverless or auto-scaling where traffic is spiky. Regular reviews catch orphaned resources and misconfigurations that inflate bills."
+        "answer": "WiseOSC uses tagging, budgets, rightsizing, Savings Plans or Reserved Instances where appropriate, and serverless or auto-scaling where traffic is spiky. Regular reviews catch orphaned resources and misconfigurations that inflate bills."
       },
       {
         "question": "What skills should I look for in AWS engineers?",
@@ -219,11 +219,11 @@
       },
       {
         "question": "Can you help migrate our existing workloads to AWS?",
-        "answer": "Yes. Wise Accelerate assesses discovery, dependency mapping, TCO, and migration waves. Wise Accelerate uses proven patterns (e.g., AWS Migration Hub, Database Migration Service) and validates performance and cutover plans to minimize downtime."
+        "answer": "Yes. WiseOSC assesses discovery, dependency mapping, TCO, and migration waves. WiseOSC uses proven patterns (e.g., AWS Migration Hub, Database Migration Service) and validates performance and cutover plans to minimize downtime."
       },
       {
         "question": "How do you handle security and compliance on AWS?",
-        "answer": "Wise Accelerate implements least privilege, encryption, logging, and guardrails aligned to your risk profile. Controls can be mapped to common frameworks; evidence is easier when architecture and documentation are intentional from day one."
+        "answer": "WiseOSC implements least privilege, encryption, logging, and guardrails aligned to your risk profile. Controls can be mapped to common frameworks; evidence is easier when architecture and documentation are intentional from day one."
       },
       {
         "question": "What ongoing maintenance is required for AWS environments?",

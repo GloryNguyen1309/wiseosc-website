@@ -92,7 +92,7 @@ function ContactFormFields() {
           name="source"
           render={({ field }) => (
             <FormItem className="space-y-2">
-              <FormLabel>How did you hear about Wise Accelerate?</FormLabel>
+              <FormLabel>How did you hear about WiseOSC?</FormLabel>
               <Select onValueChange={field.onChange} defaultValue={field.value}>
                 <FormControl>
                   <SelectTrigger className="bg-[#0A1029] border-[#1E293B] h-12">

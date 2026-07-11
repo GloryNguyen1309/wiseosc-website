@@ -39,25 +39,25 @@ const nunitoSans = Nunito_Sans({
  *   (acronym, domain, other common forms — not a duplicate of `name`).
  */
 export const metadata: Metadata = {
-  applicationName: "Wise Accelerate",
+  applicationName: "WiseOSC",
   title: {
-    default: "Wise Accelerate | Software Development & AI-Powered Engineering",
-    template: "%s | Wise Accelerate",
+    default: "WiseOSC | Software Development & AI-Powered Engineering",
+    template: "%s | WiseOSC",
   },
   description:
-    "Wise Accelerate delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development, AI integration, and mobile app solutions.",
+    "WiseOSC delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development, AI integration, and mobile app solutions.",
   keywords: [
-    "Wise Accelerate",
-    "wise accelerate",
+    "WiseOSC",
+    "WiseOSC",
     "software development",
     "AI integration",
     "fullstack developers",
     "mobile app development",
     "IT agency",
   ],
-  authors: [{ name: "Wise Accelerate", url: GEO_CONFIG.baseUrl }],
-  creator: "Wise Accelerate",
-  publisher: "Wise Accelerate",
+  authors: [{ name: "WiseOSC", url: GEO_CONFIG.baseUrl }],
+  creator: "WiseOSC",
+  publisher: "WiseOSC",
   metadataBase: new URL(GEO_CONFIG.baseUrl),
   alternates: {
     canonical: "/",
@@ -68,11 +68,11 @@ export const metadata: Metadata = {
     "geo.placename": GEO_CONFIG.geoPlacename,
   },
   openGraph: {
-    title: "Wise Accelerate | Software Development & AI-Powered Engineering",
+    title: "WiseOSC | Software Development & AI-Powered Engineering",
     description:
-      "Wise Accelerate delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development.",
+      "WiseOSC delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development.",
     url: GEO_CONFIG.baseUrl,
-    siteName: "Wise Accelerate",
+    siteName: "WiseOSC",
     locale: GEO_CONFIG.locale,
     type: "website",
     images: [
@@ -80,15 +80,15 @@ export const metadata: Metadata = {
         url: "/logo-2026.png",
         width: 1200,
         height: 630,
-        alt: "Wise Accelerate Logo",
+        alt: "WiseOSC Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wise Accelerate | Software Development",
+    title: "WiseOSC | Software Development",
     description:
-      "Wise Accelerate delivers expert fullstack developers supercharged by AI co-pilots.",
+      "WiseOSC delivers expert fullstack developers supercharged by AI co-pilots.",
     images: ["/logo-2026.png"],
   },
   robots: {
@@ -127,10 +127,9 @@ export default function RootLayout({
   const organizationId = `${siteUrl}/#organization`;
   const logoUrl = `${siteUrl}/logo-2026.png`;
 
-  const siteNameAlternates = ["WiseAccelerate", "Wise Accelerate"] as const;
+  const siteNameAlternates = ["WiseAccelerate", "WiseOSC"] as const;
 
-  const googleMapsSameAs =
-    "https://maps.app.goo.gl/YF3TWW17jSfCyERz5" as const;
+  const googleMapsSameAs = "https://maps.app.goo.gl/YF3TWW17jSfCyERz5" as const;
   const organizationSameAs = [
     googleMapsSameAs,
     "https://www.linkedin.com/company/wise-accelerate",
@@ -140,7 +139,7 @@ export default function RootLayout({
   const professionalServiceLd = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Wise Accelerate",
+    name: "WiseOSC",
     url: siteUrl,
     address: {
       "@type": "PostalAddress",
@@ -156,7 +155,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@id": `${siteUrl}/#website`,
     "@type": "WebSite",
-    name: "Wise Accelerate",
+    name: "WiseOSC",
     url: siteUrl,
     inLanguage: GEO_CONFIG.inLanguage,
     areaServed: GEO_CONFIG.areasServed,
@@ -165,12 +164,12 @@ export default function RootLayout({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Wise Accelerate",
-    alternateName: ["Wise Accelerate", "WiseAccelerate"],
+    name: "WiseOSC",
+    alternateName: ["WiseOSC", "WiseAccelerate"],
     url: siteUrl,
     logo: logoUrl,
     description:
-      "Wise Accelerate delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development, AI integration, and mobile app solutions.",
+      "WiseOSC delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development, AI integration, and mobile app solutions.",
     foundingDate: "2020",
     legalName: "W Digital Services Pty Ltd",
     address: {
@@ -207,7 +206,7 @@ export default function RootLayout({
         "@type": "WebSite",
         "@id": websiteId,
         url: siteUrl,
-        name: "Wise Accelerate",
+        name: "WiseOSC",
         alternateName: [...siteNameAlternates],
         inLanguage: GEO_CONFIG.inLanguage,
         publisher: { "@id": organizationId },
@@ -216,7 +215,7 @@ export default function RootLayout({
       {
         "@type": "Organization",
         "@id": organizationId,
-        name: "Wise Accelerate",
+        name: "WiseOSC",
         alternateName: [...siteNameAlternates, "W Digital Services Pty Ltd"],
         url: siteUrl,
         logo: {
@@ -224,7 +223,7 @@ export default function RootLayout({
           url: logoUrl,
         },
         description:
-          "Wise Accelerate delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development, AI integration, and mobile app solutions.",
+          "WiseOSC delivers expert fullstack developers supercharged by AI co-pilots. Transform your business with cutting-edge software development, AI integration, and mobile app solutions.",
         foundingDate: "2020",
         legalName: "W Digital Services Pty Ltd",
         address: {

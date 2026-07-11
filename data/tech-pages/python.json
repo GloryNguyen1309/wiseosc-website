@@ -1,77 +1,77 @@
 {
   "services": {
-    "title": "Python Development Services from Wise Accelerate",
+    "title": "Python Development Services from WiseOSC",
     "items": [
       {
         "title": "FastAPI, Django & Production Web Services",
         "paragraphs": [
-          "Python powers APIs and backends where clarity and iteration speed matter. Wise Accelerate builds FastAPI services with Pydantic schemas, dependency injection, and OpenAPI-first contracts; or Django when admin, ORM depth, and batteries-included patterns accelerate delivery.",
-          "Wise Accelerate configures ASGI/WSGI servers (Uvicorn, Gunicorn) behind load balancers, sets timeouts and worker counts from profiling—not defaults—and hardens headers, CORS, and rate limits for public endpoints."
+          "Python powers APIs and backends where clarity and iteration speed matter. WiseOSC builds FastAPI services with Pydantic schemas, dependency injection, and OpenAPI-first contracts; or Django when admin, ORM depth, and batteries-included patterns accelerate delivery.",
+          "WiseOSC configures ASGI/WSGI servers (Uvicorn, Gunicorn) behind load balancers, sets timeouts and worker counts from profiling—not defaults—and hardens headers, CORS, and rate limits for public endpoints."
         ]
       },
       {
         "title": "Async Python, Workers & Task Queues",
         "paragraphs": [
-          "I/O-bound workloads benefit from asyncio, httpx, and structured concurrency. Wise Accelerate uses Celery, RQ, or cloud-native queues (SQS, Pub/Sub) for background jobs: retries, dead-letter handling, and idempotent tasks so failures are recoverable.",
-          "Wise Accelerate traces async code paths and avoids blocking the event loop with CPU-heavy work—offloading to processes or workers when profiling shows contention."
+          "I/O-bound workloads benefit from asyncio, httpx, and structured concurrency. WiseOSC uses Celery, RQ, or cloud-native queues (SQS, Pub/Sub) for background jobs: retries, dead-letter handling, and idempotent tasks so failures are recoverable.",
+          "WiseOSC traces async code paths and avoids blocking the event loop with CPU-heavy work—offloading to processes or workers when profiling shows contention."
         ]
       },
       {
         "title": "Data Pipelines, ML Adjacency & Integrations",
         "paragraphs": [
-          "Python is the lingua franca of data: Pandas, Polars, Airflow or Dagster for orchestration, and ML stacks (scikit-learn, PyTorch integrations) where models meet production APIs. Wise Accelerate wraps ML inference behind versioned endpoints with input validation and monitoring.",
+          "Python is the lingua franca of data: Pandas, Polars, Airflow or Dagster for orchestration, and ML stacks (scikit-learn, PyTorch integrations) where models meet production APIs. WiseOSC wraps ML inference behind versioned endpoints with input validation and monitoring.",
           "ETL and streaming integrations (Kafka, batch loads to warehouses) are built with clear SLAs, schema checks, and replay strategies when upstream data drifts."
         ]
       },
       {
         "title": "Python on AWS, GCP & Kubernetes",
         "paragraphs": [
-          "Wise Accelerate packages Python in slim Docker images, pins dependencies with lockfiles, and scans for CVEs in CI. On AWS, Lambda or Fargate patterns are chosen when cold starts and concurrency limits fit the use case; otherwise containers on EKS or ECS.",
+          "WiseOSC packages Python in slim Docker images, pins dependencies with lockfiles, and scans for CVEs in CI. On AWS, Lambda or Fargate patterns are chosen when cold starts and concurrency limits fit the use case; otherwise containers on EKS or ECS.",
           "Twelve-factor configuration, secrets from vaults or parameter stores, and health endpoints make Python services behave like any other production workload—not long-running scripts on a VM."
         ]
       },
       {
         "title": "Quality, Typing & Maintainability",
         "paragraphs": [
-          "Wise Accelerate adopts mypy or Pyright where teams want safer refactors, Ruff or Black for consistent style, and pytest with fixtures for fast feedback. Coverage targets critical paths first—not vanity percentages.",
+          "WiseOSC adopts mypy or Pyright where teams want safer refactors, Ruff or Black for consistent style, and pytest with fixtures for fast feedback. Coverage targets critical paths first—not vanity percentages.",
           "Large codebases get modular packages, clear boundaries, and import layering so circular dependencies do not creep in as features accumulate."
         ]
       },
       {
         "title": "Python Support, Upgrades & Performance",
         "paragraphs": [
-          "Python releases deprecate APIs; Wise Accelerate plans upgrades with compatibility matrices and automated tests. Performance work uses cProfile, py-spy, or native extensions only when hotspots justify complexity.",
-          "Dependency hygiene matters: Wise Accelerate reviews transitive upgrades, pins security fixes, and documents breaking changes in libraries your stack relies on."
+          "Python releases deprecate APIs; WiseOSC plans upgrades with compatibility matrices and automated tests. Performance work uses cProfile, py-spy, or native extensions only when hotspots justify complexity.",
+          "Dependency hygiene matters: WiseOSC reviews transitive upgrades, pins security fixes, and documents breaking changes in libraries your stack relies on."
         ]
       }
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for Python Development",
+    "title": "Why Choose WiseOSC for Python Development",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": "Python developers at Wise Accelerate",
+    "imageAlt": "Python developers at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Production Python, not notebooks",
-        "body": "Wise Accelerate treats Python services like any critical backend: observability, tests, deployment automation, and rollback plans. Scripts graduate to products with the same discipline Wise Accelerate applies to Java or .NET."
+        "body": "WiseOSC treats Python services like any critical backend: observability, tests, deployment automation, and rollback plans. Scripts graduate to products with the same discipline WiseOSC applies to Java or .NET."
       },
       {
         "icon": "globe",
         "title": "Data-aware and integration-heavy",
-        "body": "When your product touches analytics, ML APIs, or messy enterprise integrations, Python’s ecosystem is a strength. Wise Accelerate keeps boundaries clean so data science experiments do not destabilize core APIs."
+        "body": "When your product touches analytics, ML APIs, or messy enterprise integrations, Python’s ecosystem is a strength. WiseOSC keeps boundaries clean so data science experiments do not destabilize core APIs."
       },
       {
         "icon": "zap",
         "title": "Pragmatic framework choice",
-        "body": "FastAPI vs Django vs Flask is a product and team decision. Wise Accelerate recommends stacks that match your roadmap, not the trend of the month—and documents why."
+        "body": "FastAPI vs Django vs Flask is a product and team decision. WiseOSC recommends stacks that match your roadmap, not the trend of the month—and documents why."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The Python Ecosystem Wise Accelerate Uses in Client Projects",
+    "title": "The Python Ecosystem WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "Web frameworks & APIs",
@@ -127,15 +127,15 @@
         "sections": [
           {
             "heading": "1. Velocity and readability",
-            "body": "Python’s syntax and vast standard library help teams ship features quickly—especially when requirements evolve. Wise Accelerate pairs that speed with code review and tests so velocity does not become technical debt."
+            "body": "Python’s syntax and vast standard library help teams ship features quickly—especially when requirements evolve. WiseOSC pairs that speed with code review and tests so velocity does not become technical debt."
           },
           {
             "heading": "2. Ecosystem for data and AI",
-            "body": "When products blend APIs with analytics or model serving, Python reduces friction between teams—provided boundaries and contracts are explicit. Wise Accelerate designs APIs so ML and app teams can iterate independently."
+            "body": "When products blend APIs with analytics or model serving, Python reduces friction between teams—provided boundaries and contracts are explicit. WiseOSC designs APIs so ML and app teams can iterate independently."
           },
           {
             "heading": "3. Mature hosting and tooling",
-            "body": "Containers, serverless, and observability agents work well with Python services. The language is not the bottleneck; architecture and I/O patterns are—Wise Accelerate profiles before optimizing."
+            "body": "Containers, serverless, and observability agents work well with Python services. The language is not the bottleneck; architecture and I/O patterns are—WiseOSC profiles before optimizing."
           }
         ]
       },
@@ -159,11 +159,11 @@
         "sections": [
           {
             "heading": "The GIL and concurrency",
-            "body": "CPU-bound parallelism often needs multiprocessing or native extensions; I/O-bound work fits asyncio. Wise Accelerate matches concurrency models to workload measurements."
+            "body": "CPU-bound parallelism often needs multiprocessing or native extensions; I/O-bound work fits asyncio. WiseOSC matches concurrency models to workload measurements."
           },
           {
             "heading": "Gradual typing",
-            "body": "Type hints plus mypy/Pyright improve large-codebase safety. Wise Accelerate introduces typing where refactors are frequent or teams are distributed."
+            "body": "Type hints plus mypy/Pyright improve large-codebase safety. WiseOSC introduces typing where refactors are frequent or teams are distributed."
           }
         ]
       }
@@ -174,27 +174,27 @@
     "items": [
       {
         "question": "FastAPI or Django—which should we pick?",
-        "answer": "FastAPI suits API-first microservices and async I/O; Django excels when you need ORM depth, admin, and convention-heavy web apps. Wise Accelerate maps your auth, admin, and scaling needs before recommending one."
+        "answer": "FastAPI suits API-first microservices and async I/O; Django excels when you need ORM depth, admin, and convention-heavy web apps. WiseOSC maps your auth, admin, and scaling needs before recommending one."
       },
       {
         "question": "Is Python slow for high-traffic APIs?",
-        "answer": "Often the database, network, or serialization dominates—not Python itself. Wise Accelerate profiles, caches appropriately, and scales out stateless services. When CPU is truly the limit, Wise Accelerate optimizes hotspots or moves them to native code deliberately."
+        "answer": "Often the database, network, or serialization dominates—not Python itself. WiseOSC profiles, caches appropriately, and scales out stateless services. When CPU is truly the limit, WiseOSC optimizes hotspots or moves them to native code deliberately."
       },
       {
         "question": "How do you manage dependencies safely?",
-        "answer": "Lockfiles, private indexes, and CI scans for vulnerabilities. Wise Accelerate pins upgrades, runs tests on dependency bumps, and documents breaking changes in key libraries."
+        "answer": "Lockfiles, private indexes, and CI scans for vulnerabilities. WiseOSC pins upgrades, runs tests on dependency bumps, and documents breaking changes in key libraries."
       },
       {
         "question": "Can Python services live next to our Java or .NET stack?",
-        "answer": "Yes—via REST, gRPC, or async messaging with shared API contracts. Wise Accelerate avoids shared databases across teams when possible; integration through APIs keeps autonomy."
+        "answer": "Yes—via REST, gRPC, or async messaging with shared API contracts. WiseOSC avoids shared databases across teams when possible; integration through APIs keeps autonomy."
       },
       {
         "question": "What about ML models in production?",
-        "answer": "Wise Accelerate wraps inference in versioned services, validates inputs, monitors drift and latency, and separates training code paths from serving paths so production stays stable."
+        "answer": "WiseOSC wraps inference in versioned services, validates inputs, monitors drift and latency, and separates training code paths from serving paths so production stays stable."
       },
       {
-        "question": "How does Wise Accelerate handle Python 2 legacy code?",
-        "answer": "Migration is planned with automated translation tools, test coverage, and staged cutover—Python 2 is end-of-life; Wise Accelerate treats remaining systems as risk to retire, not patch forever."
+        "question": "How does WiseOSC handle Python 2 legacy code?",
+        "answer": "Migration is planned with automated translation tools, test coverage, and staged cutover—Python 2 is end-of-life; WiseOSC treats remaining systems as risk to retire, not patch forever."
       }
     ]
   }

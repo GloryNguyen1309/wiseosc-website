@@ -54,8 +54,6 @@
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
     "resend": "^2.0.0",
-    "@vercel/postgres": "^0.10.0",
-    "@vercel/blob": "^0.25.0",
     "react-markdown": "^9.0.1",
     "remark-gfm": "^4.0.0",
     "sonner": "^1.7.1",

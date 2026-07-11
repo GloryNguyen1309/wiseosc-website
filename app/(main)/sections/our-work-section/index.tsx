@@ -9,37 +9,37 @@ import OurWorkItem from "./item";
 const items = [
   {
     title: "Singapore Institute of Technology Real-time Interaction Monitoring",
-    description: `Wise Accelerate built a sophisticated real-time learning analytics platform in partnership with Singapore Institute of Technology, leveraging the Experience API (xAPI) to capture, process, and analyze granular HTML element interactions within digital learning environments.`,
+    description: `WiseOSC built a sophisticated real-time learning analytics platform in partnership with Singapore Institute of Technology, leveraging the Experience API (xAPI) to capture, process, and analyze granular HTML element interactions within digital learning environments.`,
     imageSrc: "/project-thumb/SITThumbnail.png",
     link: "/work-detail/singapore-institute-of-technology",
   },
   {
     title: "CashD: Early wage access plugin for Australian HRM system",
-    description: `Wise Accelerate developed a comprehensive financial wellness platform that enables employees to access their earned wages before the traditional payday, reducing financial stress and improving employee satisfaction. The system integrates seamlessly with major Australian accounting systems and provides real-time wage calculation based on approved timesheets.`,
+    description: `WiseOSC developed a comprehensive financial wellness platform that enables employees to access their earned wages before the traditional payday, reducing financial stress and improving employee satisfaction. The system integrates seamlessly with major Australian accounting systems and provides real-time wage calculation based on approved timesheets.`,
     imageSrc: "/project-thumb/CashDThumbnail.png",
     link: "/work-detail/cash-d",
   },
-  { 
+  {
     title: "SellBlueAI",
-    description: `Wise Accelerate created SellBlue, an AI-powered conversational marketing platform designed to revolutionize how businesses approach marketing, sales, and customer support on iOS. The platform leverages generative AI technology to create personalized, interactive customer experiences that drive higher conversion rates.`,
+    description: `WiseOSC created SellBlue, an AI-powered conversational marketing platform designed to revolutionize how businesses approach marketing, sales, and customer support on iOS. The platform leverages generative AI technology to create personalized, interactive customer experiences that drive higher conversion rates.`,
     imageSrc: "/project-thumb/SellBlueThumbnail.png",
     link: "/work-detail/sell-blue-ai",
   },
   {
     title: "Zapiio - Smart Tool For Smart Property Investment",
-    description: `Wise Accelerate built Zapiio, the intelligent platform that empowers buyer's agents, mortgage brokers, and serious investors to navigate the property market with unparalleled clarity, strategic insight, and complete confidence.`,
+    description: `WiseOSC built Zapiio, the intelligent platform that empowers buyer's agents, mortgage brokers, and serious investors to navigate the property market with unparalleled clarity, strategic insight, and complete confidence.`,
     imageSrc: "/project-thumb/ZapiioThumbnail.png",
     link: "/work-detail/zapiio",
   },
   {
     title: "Lisa Training Manager - Tennis Academy Management Application",
-    description: `Wise Accelerate developed Lisa Training Manager, a comprehensive sports management application for a Netherlands-based sports technology company, designed specifically to streamline operations for tennis academies and coaching facilities.`,
+    description: `WiseOSC developed Lisa Training Manager, a comprehensive sports management application for a Netherlands-based sports technology company, designed specifically to streamline operations for tennis academies and coaching facilities.`,
     imageSrc: "/project-thumb/LisaThumbnail.png",
     link: "/work-detail/lisa-training-manager",
   },
   {
     title: "Apex Insurance - Insurance Management Platform",
-    description: `Wise Accelerate delivered an integrated insurance management platform that centralizes all customer, property, vehicle, and business data while providing AI-powered predictive analytics and risk assessment tools.`,
+    description: `WiseOSC delivered an integrated insurance management platform that centralizes all customer, property, vehicle, and business data while providing AI-powered predictive analytics and risk assessment tools.`,
     imageSrc: "/project-thumb/ApexThumbnail.png",
     link: "/work-detail/apex-insurance",
   },
@@ -65,7 +65,8 @@ const OurWorkSection = () => {
           <div className="text-[21px]">OUR WORK</div>
           <div className="flex gap-[32px] pb-[3.75rem]">
             <h2 className="text-[32px] lg:text-[44px] bold">
-              Explore our portfolio of successful software projects and see how we've helped businesses transform their digital presence
+              Explore our portfolio of successful software projects and see how
+              we've helped businesses transform their digital presence
             </h2>
             <div className="flex gap-4">
               <ArrowLeft

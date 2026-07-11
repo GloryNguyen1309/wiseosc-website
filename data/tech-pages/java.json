@@ -1,77 +1,77 @@
 {
   "services": {
-    "title": "Java Development Services from Wise Accelerate",
+    "title": "Java Development Services from WiseOSC",
     "items": [
       {
         "title": "Spring Boot & Enterprise APIs",
         "paragraphs": [
-          "Spring Boot remains the default for production Java services: auto-configuration, actuator endpoints, and a vast ecosystem. Wise Accelerate structures apps in clear modules—web, domain, persistence—with validation, exception handling, and OpenAPI contracts so consumers integrate without guesswork.",
-          "Wise Accelerate configures Tomcat/Jetty/Undertow appropriately, uses WebClient or RestTemplate with timeouts and retries, and applies Spring Security for OAuth2/OIDC, method security, and CORS policies aligned to your identity provider."
+          "Spring Boot remains the default for production Java services: auto-configuration, actuator endpoints, and a vast ecosystem. WiseOSC structures apps in clear modules—web, domain, persistence—with validation, exception handling, and OpenAPI contracts so consumers integrate without guesswork.",
+          "WiseOSC configures Tomcat/Jetty/Undertow appropriately, uses WebClient or RestTemplate with timeouts and retries, and applies Spring Security for OAuth2/OIDC, method security, and CORS policies aligned to your identity provider."
         ]
       },
       {
         "title": "Jakarta EE, Quarkus & Cloud-Native Java",
         "paragraphs": [
-          "Some enterprises standardize on Jakarta EE (formerly Java EE) or WebLogic/WebSphere patterns; Wise Accelerate modernizes where it pays off—extracting services, introducing containers, and clarifying transaction boundaries.",
-          "For fast startup and low memory on Kubernetes, Quarkus and Micronaut are options Wise Accelerate evaluates against your team’s skills and library needs—never as a default without trade-off analysis."
+          "Some enterprises standardize on Jakarta EE (formerly Java EE) or WebLogic/WebSphere patterns; WiseOSC modernizes where it pays off—extracting services, introducing containers, and clarifying transaction boundaries.",
+          "For fast startup and low memory on Kubernetes, Quarkus and Micronaut are options WiseOSC evaluates against your team’s skills and library needs—never as a default without trade-off analysis."
         ]
       },
       {
         "title": "Persistence: JPA, JDBC & Distributed Data",
         "paragraphs": [
-          "Wise Accelerate uses Hibernate/JPA with explicit fetch strategies, second-level cache where justified, and Flyway or Liquibase migrations checked into CI. Read replicas and connection pools are tuned from metrics—not default pool sizes.",
-          "For high-throughput paths, Wise Accelerate may introduce jOOQ or native JDBC in narrow modules while keeping the domain model coherent—pragmatism over purity."
+          "WiseOSC uses Hibernate/JPA with explicit fetch strategies, second-level cache where justified, and Flyway or Liquibase migrations checked into CI. Read replicas and connection pools are tuned from metrics—not default pool sizes.",
+          "For high-throughput paths, WiseOSC may introduce jOOQ or native JDBC in narrow modules while keeping the domain model coherent—pragmatism over purity."
         ]
       },
       {
         "title": "Microservices, Events & Resilience",
         "paragraphs": [
-          "Wise Accelerate designs services with clear APIs (REST, gRPC, or async events via Kafka/RabbitMQ). Resilience4j or Spring Cloud Circuit Breaker protects downstream calls; sagas or outbox patterns keep distributed transactions explainable.",
+          "WiseOSC designs services with clear APIs (REST, gRPC, or async events via Kafka/RabbitMQ). Resilience4j or Spring Cloud Circuit Breaker protects downstream calls; sagas or outbox patterns keep distributed transactions explainable.",
           "Service discovery, configuration servers, or Kubernetes-native config are wired so environments stay reproducible and secrets never live in source control."
         ]
       },
       {
         "title": "JVM Performance, Observability & Operations",
         "paragraphs": [
-          "Wise Accelerate tunes heap sizes, GC algorithms (G1, ZGC where appropriate), and thread pools using JVM flags and production metrics. Async and virtual threads (Project Loom) are adopted when profiling shows benefit—not by default.",
+          "WiseOSC tunes heap sizes, GC algorithms (G1, ZGC where appropriate), and thread pools using JVM flags and production metrics. Async and virtual threads (Project Loom) are adopted when profiling shows benefit—not by default.",
           "Distributed tracing (OpenTelemetry), structured logging (JSON), and Micrometer metrics integrate with Prometheus, Grafana, or your APM so incidents are diagnosable across services."
         ]
       },
       {
         "title": "Build, CI/CD & Long-Term Maintenance",
         "paragraphs": [
-          "Maven and Gradle builds are cached in CI; Wise Accelerate enforces reproducible builds and dependency audits. Container images use distroless or slim bases where security teams require minimal attack surface.",
-          "Java releases bring preview and LTS cadence; Wise Accelerate plans upgrades with compatibility tests and library support matrices so production does not lag years behind security fixes."
+          "Maven and Gradle builds are cached in CI; WiseOSC enforces reproducible builds and dependency audits. Container images use distroless or slim bases where security teams require minimal attack surface.",
+          "Java releases bring preview and LTS cadence; WiseOSC plans upgrades with compatibility tests and library support matrices so production does not lag years behind security fixes."
         ]
       }
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for Java Development",
+    "title": "Why Choose WiseOSC for Java Development",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": "Java and Spring developers at Wise Accelerate",
+    "imageAlt": "Java and Spring developers at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Enterprise patterns that scale",
-        "body": "Wise Accelerate builds Java systems with transactions, security, and operations as first-class concerns—patterns banks and insurers expect, expressed in maintainable code."
+        "body": "WiseOSC builds Java systems with transactions, security, and operations as first-class concerns—patterns banks and insurers expect, expressed in maintainable code."
       },
       {
         "icon": "globe",
         "title": "Kubernetes and hybrid ready",
-        "body": "Whether you run on EKS, AKS, GKE, or on-prem clusters, Wise Accelerate packages Java services for health probes, graceful shutdown, and config externalization—so platform teams stay happy."
+        "body": "Whether you run on EKS, AKS, GKE, or on-prem clusters, WiseOSC packages Java services for health probes, graceful shutdown, and config externalization—so platform teams stay happy."
       },
       {
         "icon": "zap",
         "title": "Senior JVM engineers",
-        "body": "Wise Accelerate's Java developers understand classloaders, GC, and framework internals enough to fix production—not only tutorials. They document decisions so your team can own the system long-term."
+        "body": "WiseOSC's Java developers understand classloaders, GC, and framework internals enough to fix production—not only tutorials. They document decisions so your team can own the system long-term."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The Java Ecosystem Wise Accelerate Uses in Client Projects",
+    "title": "The Java Ecosystem WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "Frameworks & runtime",
@@ -132,11 +132,11 @@
           },
           {
             "heading": "2. Strong tooling and JVM maturity",
-            "body": "Debuggers, profilers, and GC advances make the JVM one of the most observable runtimes. Wise Accelerate uses that tooling to optimize after measurement, not folklore."
+            "body": "Debuggers, profilers, and GC advances make the JVM one of the most observable runtimes. WiseOSC uses that tooling to optimize after measurement, not folklore."
           },
           {
             "heading": "3. Fit for large teams",
-            "body": "Static typing, established patterns, and modularization help many engineers work on one codebase—when boundaries and reviews are enforced. Wise Accelerate encodes those boundaries in code and architecture."
+            "body": "Static typing, established patterns, and modularization help many engineers work on one codebase—when boundaries and reviews are enforced. WiseOSC encodes those boundaries in code and architecture."
           }
         ]
       },
@@ -160,11 +160,11 @@
         "sections": [
           {
             "heading": "Records, pattern matching, and Loom",
-            "body": "The language evolves quickly: records reduce boilerplate; virtual threads simplify concurrency for I/O-heavy workloads. Wise Accelerate adopts features when libraries and your baseline JDK support them."
+            "body": "The language evolves quickly: records reduce boilerplate; virtual threads simplify concurrency for I/O-heavy workloads. WiseOSC adopts features when libraries and your baseline JDK support them."
           },
           {
             "heading": "Spring vs alternatives",
-            "body": "Spring Boot is the default for many greenfield services; Quarkus and Micronaut compete on startup and memory. Wise Accelerate picks based on team experience, vendor constraints, and measured cold-start requirements."
+            "body": "Spring Boot is the default for many greenfield services; Quarkus and Micronaut compete on startup and memory. WiseOSC picks based on team experience, vendor constraints, and measured cold-start requirements."
           }
         ]
       }
@@ -175,27 +175,27 @@
     "items": [
       {
         "question": "Is Java still relevant for new microservices?",
-        "answer": "Yes—especially when teams value strong typing, mature libraries, and predictable operations at scale. Wise Accelerate compares Java with Go or Kotlin using your latency, hiring, and ecosystem constraints."
+        "answer": "Yes—especially when teams value strong typing, mature libraries, and predictable operations at scale. WiseOSC compares Java with Go or Kotlin using your latency, hiring, and ecosystem constraints."
       },
       {
         "question": "Spring Boot vs Quarkus—how do we choose?",
-        "answer": "Spring Boot maximizes ecosystem and hiring pool; Quarkus can win on fast startup and lower memory for Kubernetes when your workload fits reactive or CDI-style programming. Wise Accelerate prototypes critical paths before committing."
+        "answer": "Spring Boot maximizes ecosystem and hiring pool; Quarkus can win on fast startup and lower memory for Kubernetes when your workload fits reactive or CDI-style programming. WiseOSC prototypes critical paths before committing."
       },
       {
-        "question": "How does Wise Accelerate handle JVM memory and GC tuning?",
-        "answer": "Wise Accelerate starts with defaults and production metrics, then adjusts heap, GC, and thread pools based on evidence. Tuning without profiling is avoided—flags change when traces show benefit."
+        "question": "How does WiseOSC handle JVM memory and GC tuning?",
+        "answer": "WiseOSC starts with defaults and production metrics, then adjusts heap, GC, and thread pools based on evidence. Tuning without profiling is avoided—flags change when traces show benefit."
       },
       {
         "question": "Can you work with our legacy monolith?",
-        "answer": "Wise Accelerate uses strangler patterns, modularization inside the JVM, and clear APIs to peel off services incrementally—reducing big-bang risk while modernizing."
+        "answer": "WiseOSC uses strangler patterns, modularization inside the JVM, and clear APIs to peel off services incrementally—reducing big-bang risk while modernizing."
       },
       {
         "question": "What about security (OWASP, dependencies)?",
-        "answer": "Wise Accelerate integrates dependency scanning (e.g. OWASP Dependency-Check, Snyk), follows secure headers and validation practices, and patches CVEs on a defined cadence with regression tests."
+        "answer": "WiseOSC integrates dependency scanning (e.g. OWASP Dependency-Check, Snyk), follows secure headers and validation practices, and patches CVEs on a defined cadence with regression tests."
       },
       {
         "question": "Kotlin on the JVM vs pure Java?",
-        "answer": "Kotlin interoperates with Java and can reduce boilerplate; adoption depends on team skills and Android alignment. Wise Accelerate can introduce Kotlin gradually in new modules if that matches your strategy."
+        "answer": "Kotlin interoperates with Java and can reduce boilerplate; adoption depends on team skills and Android alignment. WiseOSC can introduce Kotlin gradually in new modules if that matches your strategy."
       }
     ]
   }

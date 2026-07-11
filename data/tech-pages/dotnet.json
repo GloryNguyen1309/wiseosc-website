@@ -1,77 +1,77 @@
 {
   "services": {
-    "title": ".NET Development Services from Wise Accelerate",
+    "title": ".NET Development Services from WiseOSC",
     "items": [
       {
         "title": "ASP.NET Core & Modern Web APIs",
         "paragraphs": [
-          "ASP.NET Core is the default for high-performance APIs and web apps on Windows, Linux, and containers. Wise Accelerate builds minimal APIs or controller-based services with clear layering: validation, authentication (JWT, OAuth2/OIDC), authorization policies, and OpenAPI documentation so clients and partners integrate predictably.",
-          "Wise Accelerate applies async/await end-to-end, configures Kestrel and reverse proxies correctly, and tunes memory and thread-pool behavior under load. Health checks, graceful shutdown, and structured logging integrate with your APM and centralized logging stack."
+          "ASP.NET Core is the default for high-performance APIs and web apps on Windows, Linux, and containers. WiseOSC builds minimal APIs or controller-based services with clear layering: validation, authentication (JWT, OAuth2/OIDC), authorization policies, and OpenAPI documentation so clients and partners integrate predictably.",
+          "WiseOSC applies async/await end-to-end, configures Kestrel and reverse proxies correctly, and tunes memory and thread-pool behavior under load. Health checks, graceful shutdown, and structured logging integrate with your APM and centralized logging stack."
         ]
       },
       {
         "title": "Enterprise & Cloud-Native .NET on Azure",
         "paragraphs": [
-          "Many .NET estates run on Azure App Service, Azure Functions, AKS, or Container Apps. Wise Accelerate designs deployments with blue/green or slot swaps, managed identities (no secrets in config files), Key Vault integration, and Application Insights for traces and live metrics.",
-          "Wise Accelerate connects .NET workloads to Azure Service Bus, Event Hubs, Cosmos DB, and SQL Database with retry policies, idempotency, and clear failure handling—so distributed systems stay consistent when the network does not."
+          "Many .NET estates run on Azure App Service, Azure Functions, AKS, or Container Apps. WiseOSC designs deployments with blue/green or slot swaps, managed identities (no secrets in config files), Key Vault integration, and Application Insights for traces and live metrics.",
+          "WiseOSC connects .NET workloads to Azure Service Bus, Event Hubs, Cosmos DB, and SQL Database with retry policies, idempotency, and clear failure handling—so distributed systems stay consistent when the network does not."
         ]
       },
       {
         "title": "Data Access with Entity Framework Core",
         "paragraphs": [
-          "Wise Accelerate models domains with EF Core: migrations, compiled queries where they matter, split queries, and global filters for multi-tenancy. SQL Server, PostgreSQL, and Cosmos DB providers are chosen to match your consistency and scale needs.",
-          "Performance work includes indexing strategy, avoiding N+1 queries, and profiling hot paths. Wise Accelerate documents transaction boundaries and concurrency tokens so teams understand how data changes under parallel requests."
+          "WiseOSC models domains with EF Core: migrations, compiled queries where they matter, split queries, and global filters for multi-tenancy. SQL Server, PostgreSQL, and Cosmos DB providers are chosen to match your consistency and scale needs.",
+          "Performance work includes indexing strategy, avoiding N+1 queries, and profiling hot paths. WiseOSC documents transaction boundaries and concurrency tokens so teams understand how data changes under parallel requests."
         ]
       },
       {
         "title": "Microservices, Messaging & Integration",
         "paragraphs": [
-          "Wise Accelerate decomposes monoliths or designs new services with bounded contexts, gRPC or REST contracts, and versioning discipline. MassTransit, NServiceBus, or native Azure messaging patterns decouple domains while keeping observability across service boundaries.",
+          "WiseOSC decomposes monoliths or designs new services with bounded contexts, gRPC or REST contracts, and versioning discipline. MassTransit, NServiceBus, or native Azure messaging patterns decouple domains while keeping observability across service boundaries.",
           "Integrations with SAP, Salesforce, payment gateways, and legacy SOAP endpoints are wrapped behind adapters and tested with contract tests—reducing breakage when vendors change payloads."
         ]
       },
       {
         "title": "Blazor, MAUI & Full-Stack .NET (When It Fits)",
         "paragraphs": [
-          "Blazor Server and WebAssembly enable shared C# between browser and server; Wise Accelerate picks hosting models based on latency, scale, and SEO needs. .NET MAUI supports cross-platform mobile when sharing code with backend services matters more than pixel-perfect native UI on day one.",
-          "Wise Accelerate sets realistic expectations: not every product should be Blazor-first; Wise Accelerate aligns UI technology with team skills, release cadence, and store requirements."
+          "Blazor Server and WebAssembly enable shared C# between browser and server; WiseOSC picks hosting models based on latency, scale, and SEO needs. .NET MAUI supports cross-platform mobile when sharing code with backend services matters more than pixel-perfect native UI on day one.",
+          "WiseOSC sets realistic expectations: not every product should be Blazor-first; WiseOSC aligns UI technology with team skills, release cadence, and store requirements."
         ]
       },
       {
         "title": ".NET Migration, Modernization & Maintenance",
         "paragraphs": [
-          "Teams still on .NET Framework often need a path to .NET 8+ for performance, security patches, and cross-platform hosting. Wise Accelerate plans incremental migration: compatibility analyzers, test coverage, and strangler routes so risk stays controlled.",
-          "Ongoing maintenance covers dependency updates, CVE response, and framework release adoption. Wise Accelerate runs CI with unit and integration tests, static analysis, and performance baselines so regressions surface before production."
+          "Teams still on .NET Framework often need a path to .NET 8+ for performance, security patches, and cross-platform hosting. WiseOSC plans incremental migration: compatibility analyzers, test coverage, and strangler routes so risk stays controlled.",
+          "Ongoing maintenance covers dependency updates, CVE response, and framework release adoption. WiseOSC runs CI with unit and integration tests, static analysis, and performance baselines so regressions surface before production."
         ]
       }
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for .NET Development",
+    "title": "Why Choose WiseOSC for .NET Development",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": ".NET and C# developers at Wise Accelerate",
+    "imageAlt": ".NET and C# developers at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Enterprise-grade delivery",
-        "body": "Wise Accelerate ships .NET systems with security, compliance, and operability in scope from the first sprint: identity, secrets, logging, and deployment automation—not an afterthought before go-live."
+        "body": "WiseOSC ships .NET systems with security, compliance, and operability in scope from the first sprint: identity, secrets, logging, and deployment automation—not an afterthought before go-live."
       },
       {
         "icon": "globe",
         "title": "Azure-aligned and hybrid-friendly",
-        "body": "Whether you are all-in on Microsoft cloud or run Kubernetes elsewhere, Wise Accelerate aligns .NET services with your platform team’s standards: IaC, observability, and cost visibility."
+        "body": "Whether you are all-in on Microsoft cloud or run Kubernetes elsewhere, WiseOSC aligns .NET services with your platform team’s standards: IaC, observability, and cost visibility."
       },
       {
         "icon": "zap",
         "title": "Senior C# engineers",
-        "body": "Wise Accelerate's .NET developers know the runtime, GC behavior, and framework release cadence. They communicate trade-offs clearly so product and infra stakeholders agree on architecture—not buzzwords."
+        "body": "WiseOSC's .NET developers know the runtime, GC behavior, and framework release cadence. They communicate trade-offs clearly so product and infra stakeholders agree on architecture—not buzzwords."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The .NET Ecosystem Wise Accelerate Uses in Client Projects",
+    "title": "The .NET Ecosystem WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "Web & APIs",
@@ -136,7 +136,7 @@
           },
           {
             "heading": "3. Performance and diagnostics",
-            "body": "The runtime, JIT, and GC evolve continuously; first-class diagnostics (dotnet-counters, traces, dumps) help teams profile production. Wise Accelerate uses those tools so optimizations target evidence, not assumptions."
+            "body": "The runtime, JIT, and GC evolve continuously; first-class diagnostics (dotnet-counters, traces, dumps) help teams profile production. WiseOSC uses those tools so optimizations target evidence, not assumptions."
           }
         ]
       },
@@ -160,11 +160,11 @@
         "sections": [
           {
             "heading": "From .NET Framework to modern .NET",
-            "body": "Not every API is portable overnight; Windows-specific dependencies and old libraries need audit. Wise Accelerate plans phased moves with automated tests and feature parity checks."
+            "body": "Not every API is portable overnight; Windows-specific dependencies and old libraries need audit. WiseOSC plans phased moves with automated tests and feature parity checks."
           },
           {
             "heading": "LTS vs STS",
-            "body": "Long-term support releases suit production systems that value stability; Standard Term Support offers newer features faster. Wise Accelerate helps you align upgrade cadence with your risk tolerance."
+            "body": "Long-term support releases suit production systems that value stability; Standard Term Support offers newer features faster. WiseOSC helps you align upgrade cadence with your risk tolerance."
           }
         ]
       }
@@ -175,27 +175,27 @@
     "items": [
       {
         "question": "Should we choose .NET for new greenfield APIs?",
-        "answer": ".NET is a strong choice when your team knows C#, you want performance and tooling depth, or you standardize on Azure. Wise Accelerate compares it with Node, Java, or Go using your latency, hiring, and ecosystem constraints—not slogans."
+        "answer": ".NET is a strong choice when your team knows C#, you want performance and tooling depth, or you standardize on Azure. WiseOSC compares it with Node, Java, or Go using your latency, hiring, and ecosystem constraints—not slogans."
       },
       {
         "question": "Is .NET only for Windows?",
         "answer": "No. Modern .NET runs on Linux in containers and is a first-class citizen on Kubernetes. Legacy .NET Framework apps are Windows-centric; migration planning separates what can move vs. what needs redesign."
       },
       {
-        "question": "How does Wise Accelerate handle Entity Framework performance?",
-        "answer": "Wise Accelerate profiles queries, adds indexes, uses compiled queries where appropriate, and avoids over-fetching. Load tests and production APM catch regressions before users do."
+        "question": "How does WiseOSC handle Entity Framework performance?",
+        "answer": "WiseOSC profiles queries, adds indexes, uses compiled queries where appropriate, and avoids over-fetching. Load tests and production APM catch regressions before users do."
       },
       {
         "question": "Can you integrate .NET with our existing Java or Node services?",
-        "answer": "Yes—via REST, gRPC, or async messaging with clear contracts and versioning. Wise Accelerate designs anti-corruption layers so each stack can evolve without breaking others."
+        "answer": "Yes—via REST, gRPC, or async messaging with clear contracts and versioning. WiseOSC designs anti-corruption layers so each stack can evolve without breaking others."
       },
       {
         "question": "What about security and compliance?",
-        "answer": "Wise Accelerate implements OIDC/OAuth2, least-privilege roles, secret rotation, and audit-friendly logging. Patterns map to SOC2-style expectations when your auditors ask for evidence."
+        "answer": "WiseOSC implements OIDC/OAuth2, least-privilege roles, secret rotation, and audit-friendly logging. Patterns map to SOC2-style expectations when your auditors ask for evidence."
       },
       {
         "question": "How do you price .NET engagements?",
-        "answer": "Scope drives the model: dedicated team, augmentation, or fixed milestones. Wise Accelerate aligns on milestones, acceptance criteria, and communication rhythm in the proposal—contact Wise Accelerate for a tailored estimate."
+        "answer": "Scope drives the model: dedicated team, augmentation, or fixed milestones. WiseOSC aligns on milestones, acceptance criteria, and communication rhythm in the proposal—contact WiseOSC for a tailored estimate."
       }
     ]
   }

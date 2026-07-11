@@ -1,77 +1,77 @@
 {
   "services": {
-    "title": "React Development Services from Wise Accelerate",
+    "title": "React Development Services from WiseOSC",
     "items": [
       {
         "title": "React UI & Component Architecture",
         "paragraphs": [
-          "Wise Accelerate builds maintainable React applications with clear component boundaries, composition patterns, and scalable folder structure. Whether you use JavaScript or TypeScript, Wise Accelerate emphasizes predictable props, accessible markup, and design tokens that align design and engineering.",
-          "From atomic design to feature-sliced or domain-driven folders, Wise Accelerate documents conventions so new engineers onboard quickly. Storybook or similar tooling can showcase components in isolation and catch regressions before they reach production."
+          "WiseOSC builds maintainable React applications with clear component boundaries, composition patterns, and scalable folder structure. Whether you use JavaScript or TypeScript, WiseOSC emphasizes predictable props, accessible markup, and design tokens that align design and engineering.",
+          "From atomic design to feature-sliced or domain-driven folders, WiseOSC documents conventions so new engineers onboard quickly. Storybook or similar tooling can showcase components in isolation and catch regressions before they reach production."
         ]
       },
       {
         "title": "Modern React: Hooks, State & Data Fetching",
         "paragraphs": [
-          "Wise Accelerate implements state with the right tool for the job: local state with useState/useReducer, server state with TanStack Query or SWR, and global UI state with Zustand, Redux Toolkit, or Context where appropriate—avoiding unnecessary re-renders and stale data.",
+          "WiseOSC implements state with the right tool for the job: local state with useState/useReducer, server state with TanStack Query or SWR, and global UI state with Zustand, Redux Toolkit, or Context where appropriate—avoiding unnecessary re-renders and stale data.",
           "Data fetching strategies include REST, GraphQL, and streaming patterns where frameworks support them. Error boundaries, suspense boundaries (where applicable), and retry policies keep UX resilient when networks fail."
         ]
       },
       {
         "title": "React in Production: Next.js, Remix & SSR/SSG",
         "paragraphs": [
-          "When SEO, performance, and first-load time matter, Wise Accelerate delivers React on frameworks like Next.js or Remix with intentional rendering models: static generation, server rendering, or hybrid routes. Wise Accelerate aligns caching, revalidation, and edge delivery with your content and traffic patterns.",
-          "For apps that stay client-heavy, Wise Accelerate optimizes bundles with route-based code splitting, lazy loading, and tree-shaking-friendly imports so users download only what they need."
+          "When SEO, performance, and first-load time matter, WiseOSC delivers React on frameworks like Next.js or Remix with intentional rendering models: static generation, server rendering, or hybrid routes. WiseOSC aligns caching, revalidation, and edge delivery with your content and traffic patterns.",
+          "For apps that stay client-heavy, WiseOSC optimizes bundles with route-based code splitting, lazy loading, and tree-shaking-friendly imports so users download only what they need."
         ]
       },
       {
         "title": "Performance, Accessibility & Core Web Vitals",
         "paragraphs": [
-          "React is fast when you measure: Wise Accelerate profiles renders, list virtualization, and expensive effects. Memoization is applied where it buys real wins—not everywhere—alongside image optimization and font strategies.",
+          "React is fast when you measure: WiseOSC profiles renders, list virtualization, and expensive effects. Memoization is applied where it buys real wins—not everywhere—alongside image optimization and font strategies.",
           "Accessibility is not optional: keyboard navigation, ARIA roles, focus management in dialogs, and color contrast are verified alongside automated and manual checks so your product works for every user and reduces compliance risk."
         ]
       },
       {
         "title": "Testing & Quality for React Codebases",
         "paragraphs": [
-          "Wise Accelerate combines unit tests (Vitest/Jest), component tests (React Testing Library), and end-to-end tests (Playwright/Cypress) based on risk. Tests focus on behavior users care about—not implementation details that break on every refactor.",
+          "WiseOSC combines unit tests (Vitest/Jest), component tests (React Testing Library), and end-to-end tests (Playwright/Cypress) based on risk. Tests focus on behavior users care about—not implementation details that break on every refactor.",
           "CI pipelines run linting, typecheck, and tests on every merge; visual regression can guard design systems when needed."
         ]
       },
       {
         "title": "Migration, Legacy React & Long-Term Maintenance",
         "paragraphs": [
-          "Upgrading from class components, older React versions, or legacy bundlers is planned in phases: codemods, feature flags, and incremental routes reduce risk. Wise Accelerate documents breaking changes and validates performance after each step.",
+          "Upgrading from class components, older React versions, or legacy bundlers is planned in phases: codemods, feature flags, and incremental routes reduce risk. WiseOSC documents breaking changes and validates performance after each step.",
           "Ongoing maintenance covers dependency updates (React, router, major libs), security advisories, and roadmap alignment with React and framework release channels."
         ]
       }
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for React Development",
+    "title": "Why Choose WiseOSC for React Development",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": "React developers collaborating at Wise Accelerate",
+    "imageAlt": "React developers collaborating at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Sensible architecture, not hype",
-        "body": "Wise Accelerate picks patterns that fit your team size and product stage—whether that is a lean SPA, a Next.js commerce site, or a large modular dashboard. You get clear boundaries, documentation, and handoff so React stays maintainable for years."
+        "body": "WiseOSC picks patterns that fit your team size and product stage—whether that is a lean SPA, a Next.js commerce site, or a large modular dashboard. You get clear boundaries, documentation, and handoff so React stays maintainable for years."
       },
       {
         "icon": "globe",
         "title": "Flexible engagement",
-        "body": "Staff augmentation, dedicated squad, or project-based delivery: Wise Accelerate embeds in your Slack/Jira/Git workflow and aligns on Definition of Done, release cadence, and on-call expectations for front-end changes."
+        "body": "Staff augmentation, dedicated squad, or project-based delivery: WiseOSC embeds in your Slack/Jira/Git workflow and aligns on Definition of Done, release cadence, and on-call expectations for front-end changes."
       },
       {
         "icon": "zap",
         "title": "Senior React engineers",
-        "body": "Wise Accelerate's React developers ship production UIs daily: they know hooks pitfalls, concurrent features where relevant, and how to collaborate with design and API teams without slowing delivery."
+        "body": "WiseOSC's React developers ship production UIs daily: they know hooks pitfalls, concurrent features where relevant, and how to collaborate with design and API teams without slowing delivery."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The React Ecosystem Wise Accelerate Uses in Client Projects",
+    "title": "The React Ecosystem WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "Core & rendering",
@@ -109,7 +109,7 @@
       },
       {
         "title": "UI kits & styling",
-        "description": "Component libraries and styling approaches Wise Accelerate integrates with React.",
+        "description": "Component libraries and styling approaches WiseOSC integrates with React.",
         "items": [
           "Tailwind CSS",
           "MUI (Material UI)",
@@ -191,7 +191,7 @@
           },
           {
             "heading": "Not a full framework alone",
-            "body": "React is a UI library; routing, data loading, and deployment are choices you layer on. Wise Accelerate helps you pick a coherent stack so you do not Frankenstein incompatible patterns."
+            "body": "React is a UI library; routing, data loading, and deployment are choices you layer on. WiseOSC helps you pick a coherent stack so you do not Frankenstein incompatible patterns."
           }
         ]
       }
@@ -210,19 +210,19 @@
       },
       {
         "question": "How do you handle performance in large React apps?",
-        "answer": "Wise Accelerate measures first: bundle size, render counts, and Core Web Vitals. Then Wise Accelerate applies code splitting, memoization where justified, list virtualization, and asset optimization—always validated with profiling, not guesswork."
+        "answer": "WiseOSC measures first: bundle size, render counts, and Core Web Vitals. Then WiseOSC applies code splitting, memoization where justified, list virtualization, and asset optimization—always validated with profiling, not guesswork."
       },
       {
         "question": "Is TypeScript necessary for React projects?",
-        "answer": "Not mandatory, but TypeScript pays off as teams and codebases grow: fewer runtime surprises, safer refactors, and better editor support. Wise Accelerate can introduce it gradually on existing codebases."
+        "answer": "Not mandatory, but TypeScript pays off as teams and codebases grow: fewer runtime surprises, safer refactors, and better editor support. WiseOSC can introduce it gradually on existing codebases."
       },
       {
         "question": "What is your approach to testing React applications?",
-        "answer": "Wise Accelerate prioritizes user-visible behavior with React Testing Library, supplement with unit tests for pure logic, and add E2E tests for critical flows. The mix depends on risk and release frequency."
+        "answer": "WiseOSC prioritizes user-visible behavior with React Testing Library, supplement with unit tests for pure logic, and add E2E tests for critical flows. The mix depends on risk and release frequency."
       },
       {
         "question": "Can you migrate our legacy React codebase?",
-        "answer": "Yes. Wise Accelerate assesses version drift, dependency risk, and routing/state patterns, then proposes a phased migration—often alongside test coverage and feature flags—to reduce downtime and regressions."
+        "answer": "Yes. WiseOSC assesses version drift, dependency risk, and routing/state patterns, then proposes a phased migration—often alongside test coverage and feature flags—to reduce downtime and regressions."
       }
     ]
   }

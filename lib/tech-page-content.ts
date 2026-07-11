@@ -79,7 +79,7 @@ function buildDefaultTechPageContent(techName: string): TechPageSeoContent {
       ],
     },
     whyChoose: {
-      title: `Why Choose Wise Accelerate for ${t} Development`,
+      title: `Why Choose WiseOSC for ${t} Development`,
       imageSrc: "/why-work-with-us/slide-2-3.jpg",
       imageAlt: `${t} development team collaboration`,
       features: [
@@ -207,7 +207,7 @@ function buildDefaultTechPageContent(techName: string): TechPageSeoContent {
         },
         {
           question: `What should I consider when choosing a ${t} development partner?`,
-          answer: `Look for delivery transparency, code quality practices, and references in similar domains. Wise Accelerate emphasizes clear ownership, documentation, and long-term partnership—not just sprint output.`,
+          answer: `Look for delivery transparency, code quality practices, and references in similar domains. WiseOSC emphasizes clear ownership, documentation, and long-term partnership—not just sprint output.`,
         },
         {
           question: `What types of applications commonly use ${t}?`,

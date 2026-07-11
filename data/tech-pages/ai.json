@@ -1,77 +1,77 @@
 {
   "services": {
-    "title": "AI & Generative Development Services from Wise Accelerate",
+    "title": "AI & Generative Development Services from WiseOSC",
     "items": [
       {
         "title": "LLM-Powered Products & APIs",
         "paragraphs": [
-          "Large language models (LLMs) are now a practical layer in software: summarization, classification, drafting, code assistance, and conversational UIs. Wise Accelerate designs features around real latency and cost constraints—choosing when to call an API, batch work, or cache—so GenAI augments your product without unpredictable bills or fragile UX.",
-          "Wise Accelerate integrates hosted models (OpenAI, Anthropic, Google Gemini, Azure OpenAI) or open-weight stacks where self-hosting matters for compliance. Prompt design, structured outputs (JSON/schema), streaming, and fallback behavior are treated as engineering concerns: versioned, tested, and observable in production."
+          "Large language models (LLMs) are now a practical layer in software: summarization, classification, drafting, code assistance, and conversational UIs. WiseOSC designs features around real latency and cost constraints—choosing when to call an API, batch work, or cache—so GenAI augments your product without unpredictable bills or fragile UX.",
+          "WiseOSC integrates hosted models (OpenAI, Anthropic, Google Gemini, Azure OpenAI) or open-weight stacks where self-hosting matters for compliance. Prompt design, structured outputs (JSON/schema), streaming, and fallback behavior are treated as engineering concerns: versioned, tested, and observable in production."
         ]
       },
       {
         "title": "Retrieval-Augmented Generation (RAG)",
         "paragraphs": [
-          "Generic LLMs hallucinate on private facts. Retrieval-augmented generation grounds answers in your documents: chunking, embeddings, vector stores, and re-ranking so responses cite the right context. Wise Accelerate builds RAG pipelines with clear data boundaries—who can see which corpus—and refresh strategies when source docs change.",
-          "Wise Accelerate evaluates RAG quality with offline datasets and online feedback: answer faithfulness, citation accuracy, and latency under load. Hybrid search (keyword + dense vectors), metadata filters, and query rewriting are applied where naive vector search is not enough."
+          "Generic LLMs hallucinate on private facts. Retrieval-augmented generation grounds answers in your documents: chunking, embeddings, vector stores, and re-ranking so responses cite the right context. WiseOSC builds RAG pipelines with clear data boundaries—who can see which corpus—and refresh strategies when source docs change.",
+          "WiseOSC evaluates RAG quality with offline datasets and online feedback: answer faithfulness, citation accuracy, and latency under load. Hybrid search (keyword + dense vectors), metadata filters, and query rewriting are applied where naive vector search is not enough."
         ]
       },
       {
         "title": "Agentic Workflows & Tool Use",
         "paragraphs": [
-          "Agentic systems go beyond single-shot prompts: an LLM plans steps, calls tools (HTTP APIs, databases, code execution), and loops until a goal is met—under guardrails. Wise Accelerate maps your business process into explicit graphs or state machines (e.g. LangGraph-style) so behavior is inspectable, not a black-box loop.",
-          "Wise Accelerate implements function calling, structured tool schemas, human-in-the-loop approvals, and idempotent side effects so agents cannot silently corrupt data. Observability spans traces, token usage, and per-step outcomes—essential when debugging why an agent chose a wrong action."
+          "Agentic systems go beyond single-shot prompts: an LLM plans steps, calls tools (HTTP APIs, databases, code execution), and loops until a goal is met—under guardrails. WiseOSC maps your business process into explicit graphs or state machines (e.g. LangGraph-style) so behavior is inspectable, not a black-box loop.",
+          "WiseOSC implements function calling, structured tool schemas, human-in-the-loop approvals, and idempotent side effects so agents cannot silently corrupt data. Observability spans traces, token usage, and per-step outcomes—essential when debugging why an agent chose a wrong action."
         ]
       },
       {
         "title": "Safety, Evaluation & Responsible AI",
         "paragraphs": [
-          "Production AI needs red-teaming, policy layers, and monitoring for jailbreaks, PII leakage, and toxic outputs. Wise Accelerate layers input/output filters, allowlists, and escalation paths where automation should stop. Evaluation is continuous: regression suites on prompts and model upgrades, not one-off demos.",
-          "For regulated contexts, Wise Accelerate aligns with data residency, audit logs, and model provenance. Documentation covers what data trains or fine-tunes models versus what is only inferred at runtime—so legal and security teams can sign off with clarity."
+          "Production AI needs red-teaming, policy layers, and monitoring for jailbreaks, PII leakage, and toxic outputs. WiseOSC layers input/output filters, allowlists, and escalation paths where automation should stop. Evaluation is continuous: regression suites on prompts and model upgrades, not one-off demos.",
+          "For regulated contexts, WiseOSC aligns with data residency, audit logs, and model provenance. Documentation covers what data trains or fine-tunes models versus what is only inferred at runtime—so legal and security teams can sign off with clarity."
         ]
       },
       {
         "title": "Fine-Tuning, Embeddings & MLOps",
         "paragraphs": [
-          "When few-shot prompting hits limits, fine-tuning or domain adapters can improve tone, format, or task accuracy. Wise Accelerate prepares datasets, trains with clear baselines, and compares against RAG-first approaches so you invest in the right lever. Embedding models and re-rankers are chosen to match your languages and domains.",
-          "Deployment pipelines include model versioning, A/B or shadow traffic, rollback, and cost dashboards. Wise Accelerate connects AI workloads to your existing CI/CD, secrets, and observability stack so ML and application teams share one operational model."
+          "When few-shot prompting hits limits, fine-tuning or domain adapters can improve tone, format, or task accuracy. WiseOSC prepares datasets, trains with clear baselines, and compares against RAG-first approaches so you invest in the right lever. Embedding models and re-rankers are chosen to match your languages and domains.",
+          "Deployment pipelines include model versioning, A/B or shadow traffic, rollback, and cost dashboards. WiseOSC connects AI workloads to your existing CI/CD, secrets, and observability stack so ML and application teams share one operational model."
         ]
       },
       {
         "title": "AI Support, Drift & Roadmap",
         "paragraphs": [
-          "Models and APIs evolve monthly: pricing, context windows, and behavior shift. Wise Accelerate runs maintenance that tracks deprecations, re-benchmarks quality after upgrades, and updates prompts or retrieval indexes when product data changes.",
-          "Quarterly reviews cover accuracy trends, spend, and new capabilities (multimodal, longer context, cheaper endpoints). Wise Accelerate helps you sequence roadmap items—deeper agents, better RAG, or on-device models—based on measured impact, not hype."
+          "Models and APIs evolve monthly: pricing, context windows, and behavior shift. WiseOSC runs maintenance that tracks deprecations, re-benchmarks quality after upgrades, and updates prompts or retrieval indexes when product data changes.",
+          "Quarterly reviews cover accuracy trends, spend, and new capabilities (multimodal, longer context, cheaper endpoints). WiseOSC helps you sequence roadmap items—deeper agents, better RAG, or on-device models—based on measured impact, not hype."
         ]
       }
     ]
   },
   "whyChoose": {
-    "title": "Why Choose Wise Accelerate for AI & LLM Engineering",
+    "title": "Why Choose WiseOSC for AI & LLM Engineering",
     "imageSrc": "/why-work-with-us/slide-2-3.jpg",
-    "imageAlt": "AI and machine learning engineers collaborating at Wise Accelerate",
+    "imageAlt": "AI and machine learning engineers collaborating at WiseOSC",
     "features": [
       {
         "icon": "shield",
         "title": "Production-minded GenAI",
-        "body": "Wise Accelerate ships AI features with SLIs/SLOs, cost caps, and failure modes thought through—not demo scripts. LLM calls sit behind the same rigor as the rest of your stack: retries, timeouts, structured errors, and runbooks when providers degrade."
+        "body": "WiseOSC ships AI features with SLIs/SLOs, cost caps, and failure modes thought through—not demo scripts. LLM calls sit behind the same rigor as the rest of your stack: retries, timeouts, structured errors, and runbooks when providers degrade."
       },
       {
         "icon": "globe",
         "title": "Agents & integrations that fit your stack",
-        "body": "Agentic workflows connect to your APIs, identity, and data stores with explicit contracts. Wise Accelerate aligns with your cloud (AWS, Azure, GCP), vector databases, and event systems so AI is embedded in your architecture—not a parallel science project."
+        "body": "Agentic workflows connect to your APIs, identity, and data stores with explicit contracts. WiseOSC aligns with your cloud (AWS, Azure, GCP), vector databases, and event systems so AI is embedded in your architecture—not a parallel science project."
       },
       {
         "icon": "zap",
         "title": "Engineers who speak model and product",
-        "body": "Wise Accelerate's team bridges prompt engineering, retrieval design, and classic software quality: types, tests, and code review. You get clear trade-off narratives—when RAG beats fine-tuning, when to avoid agents—so stakeholders make informed bets."
+        "body": "WiseOSC's team bridges prompt engineering, retrieval design, and classic software quality: types, tests, and code review. You get clear trade-off narratives—when RAG beats fine-tuning, when to avoid agents—so stakeholders make informed bets."
       }
     ],
     "ctaLabel": "Get Free Trial",
     "ctaHref": "/contact"
   },
   "ecosystem": {
-    "title": "The AI & LLM Stack Wise Accelerate Uses in Client Projects",
+    "title": "The AI & LLM Stack WiseOSC Uses in Client Projects",
     "categories": [
       {
         "title": "LLMs & Inference APIs",
@@ -131,11 +131,11 @@
           },
           {
             "heading": "2. Grounding beats raw scale",
-            "body": "The best products combine capable models with retrieval, business rules, and human oversight. RAG and structured outputs reduce hallucinations; evaluation harnesses catch regressions when prompts or models change. Wise Accelerate treats grounding and measurement as core product work, not afterthoughts."
+            "body": "The best products combine capable models with retrieval, business rules, and human oversight. RAG and structured outputs reduce hallucinations; evaluation harnesses catch regressions when prompts or models change. WiseOSC treats grounding and measurement as core product work, not afterthoughts."
           },
           {
             "heading": "3. Cost and risk are manageable",
-            "body": "Token economics, caching, and smaller specialized models can keep spend predictable. Security, privacy, and compliance map cleanly when data flows and model choices are documented. Wise Accelerate helps you design for EU AI Act-style accountability and enterprise procurement expectations early."
+            "body": "Token economics, caching, and smaller specialized models can keep spend predictable. Security, privacy, and compliance map cleanly when data flows and model choices are documented. WiseOSC helps you design for EU AI Act-style accountability and enterprise procurement expectations early."
           }
         ]
       },
@@ -163,11 +163,11 @@
         "sections": [
           {
             "heading": "LLMs are not databases",
-            "body": "They approximate patterns from training data; for factual business answers, combine models with retrieval, validation steps, or deterministic code. Wise Accelerate engineers for correctness where it matters and transparency where it builds trust."
+            "body": "They approximate patterns from training data; for factual business answers, combine models with retrieval, validation steps, or deterministic code. WiseOSC engineers for correctness where it matters and transparency where it builds trust."
           },
           {
             "heading": "Agents need boundaries",
-            "body": "Open-ended agents can loop or misuse tools. Production agentic workflows specify allowed tools, max steps, escalation to humans, and transactional safety—patterns Wise Accelerate bakes into design from day one."
+            "body": "Open-ended agents can loop or misuse tools. Production agentic workflows specify allowed tools, max steps, escalation to humans, and transactional safety—patterns WiseOSC bakes into design from day one."
           }
         ]
       }
@@ -178,27 +178,27 @@
     "items": [
       {
         "question": "What is the difference between traditional ML and LLM-based AI in products?",
-        "answer": "Classical ML often uses task-specific models on structured features (classification, forecasting). LLMs excel at language, code, and flexible reasoning with zero/few-shot prompts; they pair well with RAG and tools for factual or transactional work. Wise Accelerate picks the smallest effective approach—sometimes classical ML, sometimes LLMs, often both."
+        "answer": "Classical ML often uses task-specific models on structured features (classification, forecasting). LLMs excel at language, code, and flexible reasoning with zero/few-shot prompts; they pair well with RAG and tools for factual or transactional work. WiseOSC picks the smallest effective approach—sometimes classical ML, sometimes LLMs, often both."
       },
       {
         "question": "What is an agentic workflow?",
-        "answer": "An agentic workflow is a multi-step process where an LLM plans actions, invokes tools (APIs, retrieval, code), and iterates toward a goal—unlike a single prompt-response. Wise Accelerate implements agents with explicit state, permissions, and observability so behavior stays debuggable and safe."
+        "answer": "An agentic workflow is a multi-step process where an LLM plans actions, invokes tools (APIs, retrieval, code), and iterates toward a goal—unlike a single prompt-response. WiseOSC implements agents with explicit state, permissions, and observability so behavior stays debuggable and safe."
       },
       {
         "question": "How do you reduce hallucinations and keep answers on-brand?",
-        "answer": "Combine RAG with trusted corpora, structured outputs, validation layers (rules or smaller models), and human review for high-stakes actions. Wise Accelerate measures faithfulness and user feedback over time and versions prompts and indexes like any other critical dependency."
+        "answer": "Combine RAG with trusted corpora, structured outputs, validation layers (rules or smaller models), and human review for high-stakes actions. WiseOSC measures faithfulness and user feedback over time and versions prompts and indexes like any other critical dependency."
       },
       {
         "question": "Can we use our own data without sending everything to a public API?",
-        "answer": "Yes—options include private endpoints (Azure OpenAI, VPC endpoints), self-hosted open models, on-prem vector stores, and strict data-handling agreements. Wise Accelerate designs partitioning so sensitive data never crosses boundaries your policy forbids."
+        "answer": "Yes—options include private endpoints (Azure OpenAI, VPC endpoints), self-hosted open models, on-prem vector stores, and strict data-handling agreements. WiseOSC designs partitioning so sensitive data never crosses boundaries your policy forbids."
       },
       {
         "question": "How do you control cost and latency for LLM features?",
-        "answer": "Caching, batching, smaller models for simple tasks, streaming UX, and limits on context size all help. Wise Accelerate sets budgets per feature, profiles token usage, and chooses architectures (e.g. retrieve-then-generate) that avoid redundant model calls."
+        "answer": "Caching, batching, smaller models for simple tasks, streaming UX, and limits on context size all help. WiseOSC sets budgets per feature, profiles token usage, and chooses architectures (e.g. retrieve-then-generate) that avoid redundant model calls."
       },
       {
         "question": "What should we plan for after launch?",
-        "answer": "Model upgrades, shifting API pricing, evolving documents for RAG, and new abuse patterns. Wise Accelerate recommends monitoring, eval suites, and a regular review cadence so AI features stay accurate, economical, and compliant as your product grows."
+        "answer": "Model upgrades, shifting API pricing, evolving documents for RAG, and new abuse patterns. WiseOSC recommends monitoring, eval suites, and a regular review cadence so AI features stay accurate, economical, and compliant as your product grows."
       }
     ]
   }

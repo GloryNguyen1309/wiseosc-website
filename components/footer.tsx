@@ -50,13 +50,13 @@ export function Footer() {
           {/* Left Column */}
           <div>
             <p className="text-gray-400 text-sm mb-4">
-              Ready To See Wise Accelerate's Magic?
+              Ready To See WiseOSC's Magic?
             </p>
             <h2 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-8">
               Let's talk <br />
               about{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
-                your project with Wise Accelerate
+                your project with WiseOSC
               </span>
             </h2>
             <a

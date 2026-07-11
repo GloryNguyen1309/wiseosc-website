@@ -32,12 +32,12 @@ const CardItem = ({
     <div
       className={cn(
         "flex-1 flex justify-center items-center border rounded-[12px] p-2 border-[#87868636] w-[188px] h-[100px] mr-[50px]",
-        className
+        className,
       )}
       style={style}
     >
       <Image
-        alt={`${name} — Wise Accelerate client`}
+        alt={`${name} — WiseOSC client`}
         src={src}
         width={188}
         height={100}
@@ -54,12 +54,18 @@ const TrustedBySection = () => {
       <div
         className={cn(
           "flex flex-col gap-[32px] transition-all duration-1000 ease-out transform opacity-100 translate-y-0",
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
         )}
       >
-        <h4 className="text-center">Trusted by startups and enterprises worldwide - Why companies choose Wise Accelerate</h4>
+        <h4 className="text-center">
+          Trusted by startups and enterprises worldwide - Why companies choose
+          WiseOSC
+        </h4>
         <div className="flex overflow-hidden mx-[100px] lg:mx-32 xl:mx-52">
-          <div className="flex min-w-max animate-scroll-right justify-center" style={{ animationDuration: '50s' }}>
+          <div
+            className="flex min-w-max animate-scroll-right justify-center"
+            style={{ animationDuration: "50s" }}
+          >
             {items.map((item, idx) => (
               <CardItem
                 key={idx}
@@ -74,7 +80,10 @@ const TrustedBySection = () => {
               />
             ))}
           </div>
-          <div className="flex min-w-max animate-scroll-right justify-center" style={{ animationDuration: '50s' }}>
+          <div
+            className="flex min-w-max animate-scroll-right justify-center"
+            style={{ animationDuration: "50s" }}
+          >
             {items.map((item, idx) => (
               <CardItem key={idx} name={item.name} src={item.src} />
             ))}

@@ -27,7 +27,7 @@ function StatItem({ number, label, delay = 0 }: StatItemProps) {
         root: null,
         rootMargin: "0px",
         threshold: 0.1,
-      }
+      },
     );
 
     if (itemRef.current) {
@@ -46,7 +46,7 @@ function StatItem({ number, label, delay = 0 }: StatItemProps) {
       ref={itemRef}
       className={cn(
         "text-center transition-all duration-700 ease-out transform",
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
       )}
     >
       <div className="text-4xl md:text-5xl font-bold text-white mb-2">
@@ -72,7 +72,7 @@ export function ApproachSection() {
         root: null,
         rootMargin: "0px",
         threshold: 0.1,
-      }
+      },
     );
 
     if (sectionRef.current) {
@@ -104,26 +104,27 @@ export function ApproachSection() {
         ref={sectionRef}
         className={cn(
           "container mx-auto px-4 py-16 transition-all duration-1000 ease-out transform",
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
         )}
       >
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <p className="text-gray-300 text-lg leading-relaxed">
-              Wise Accelerate grounds our work in technical expertise, strategizes efficiently,
-              and executes with precision, building applications, designing
-              systems, and delivering exceptional digital solutions. Trust Wise Accelerate for your next project.
+              WiseOSC grounds our work in technical expertise, strategizes
+              efficiently, and executes with precision, building applications,
+              designing systems, and delivering exceptional digital solutions.
+              Trust WiseOSC for your next project.
             </p>
           </div>
 
           <div>
             <h3 className="text-3xl md:text-4xl font-bold text-white leading-tight">
               Using Technology, Development, AI, and{" "}
-              <span className="text-amber-500">innovation</span>, Wise Accelerate shapes{" "}
+              <span className="text-amber-500">innovation</span>, WiseOSC shapes{" "}
               <span className="text-amber-500">Digital Product</span>{" "}
               Experiences that propel your{" "}
               <span className="text-amber-500">success</span> in the digital
-              realm. Partner with Wise Accelerate today.
+              realm. Partner with WiseOSC today.
             </h3>
           </div>
         </div>

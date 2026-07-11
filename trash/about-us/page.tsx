@@ -18,13 +18,13 @@ export default function AboutUs() {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
-              About <span className="text-[#3B82F6]">Wise Accelerate</span>
+              About <span className="text-[#3B82F6]">WiseOSC</span>
             </h1>
             <p className="text-gray-300 text-center max-w-3xl mx-auto text-lg">
-              Wise Accelerate is a leading digital product studio specializing
-              in AI-powered software development, fullstack web applications,
-              and mobile solutions. Learn more about the Wise Accelerate team
-              and our commitment to excellence at wiseaccelerate.com.
+              WiseOSC is a leading digital product studio specializing in
+              AI-powered software development, fullstack web applications, and
+              mobile solutions. Learn more about the WiseOSC team and our
+              commitment to excellence at wiseaccelerate.com.
             </p>
           </div>
         </div>

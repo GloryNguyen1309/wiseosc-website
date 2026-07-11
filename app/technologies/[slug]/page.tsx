@@ -29,7 +29,7 @@ export async function generateMetadata({
   const tech = getTechnologyBySlug(slug);
   if (!tech) return { title: "Technology Not Found" };
   const canonical = `${GEO_CONFIG.baseUrl}/technologies/${slug}`;
-  const ogTitle = `${tech.meta.title} | Wise Accelerate`;
+  const ogTitle = `${tech.meta.title} | WiseOSC`;
   return {
     title: tech.meta.title,
     description: tech.meta.description,
