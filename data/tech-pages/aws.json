@@ -1,0 +1,234 @@
+{
+  "services": {
+    "title": "AWS Cloud Development Services from Wise Accelerate",
+    "items": [
+      {
+        "title": "AWS Architecture & Well-Architected Reviews",
+        "paragraphs": [
+          "Wise Accelerate designs AWS architectures that follow the Well-Architected pillars: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. That means clear account and VPC boundaries, least-privilege IAM, encryption in transit and at rest, and disaster recovery patterns that match your RTO/RPO.",
+          "Workloads are documented with architecture diagrams, threat models, and runbooks. Wise Accelerate aligns landing zones, tagging, and governance so finance and security teams get predictable visibility as your footprint on AWS grows."
+        ]
+      },
+      {
+        "title": "AWS Serverless & Event-Driven Systems",
+        "paragraphs": [
+          "Wise Accelerate builds and operates serverless stacks on AWS using Lambda, API Gateway, EventBridge, Step Functions, and SQS/SNS where they reduce undifferentiated heavy lifting. Cold start budgets, concurrency limits, and idempotent handlers are first-class concerns—not afterthoughts.",
+          "Event-driven designs decouple producers and consumers, improve resilience, and scale with traffic spikes. Wise Accelerate wires observability (structured logs, traces, metrics) so you can prove SLAs and debug production issues quickly."
+        ]
+      },
+      {
+        "title": "Containers on AWS (ECS, EKS, Fargate)",
+        "paragraphs": [
+          "Whether you need Kubernetes (EKS) or managed orchestration (ECS), Wise Accelerate implements secure clusters, workload identity, pod security, and upgrade strategies that keep you current without surprise outages. Fargate removes node patching overhead when it fits your cost profile.",
+          "CI/CD pipelines build, scan, sign, and promote images; GitOps or pipeline-as-code keeps environments reproducible. Wise Accelerate integrates service mesh or ingress patterns only when they earn their complexity."
+        ]
+      },
+      {
+        "title": "AWS Data, Storage & Analytics",
+        "paragraphs": [
+          "Wise Accelerate implements durable object storage with S3 (lifecycle, versioning, replication), relational workloads on RDS/Aurora, NoSQL on DynamoDB, caching with ElastiCache, and data lakes or warehouses when analytics demands it—always with backup, encryption, and access policies that match compliance needs.",
+          "Pipelines move data between systems with minimal duplication: streaming (Kinesis), batch (Glue/EMR where appropriate), and clear data contracts so downstream teams trust the numbers."
+        ]
+      },
+      {
+        "title": "AWS Networking, Security & Compliance",
+        "paragraphs": [
+          "Wise Accelerate engineers VPCs, subnets, routing, NAT, and connectivity (VPC peering, Transit Gateway, VPN/Direct Connect) so traffic flows are explicit and auditable. Edge protection uses CloudFront, WAF, and Shield where threats warrant it.",
+          "Secrets live in Secrets Manager or Parameter Store; keys in KMS; IAM roles per workload—not long-lived keys in repos. Wise Accelerate maps controls to frameworks (SOC2, ISO, HIPAA-style patterns) through evidence-friendly design."
+        ]
+      },
+      {
+        "title": "AWS DevOps, IaC & Observability",
+        "paragraphs": [
+          "Infrastructure is code: CloudFormation, AWS CDK, or Terraform—picked to match your team and review process. Pipelines (CodePipeline, GitHub Actions, GitLab CI) enforce tests, policy checks, and staged rollouts with automated rollbacks when signals regress.",
+          "Operations teams get dashboards and alerts in CloudWatch; distributed tracing with X-Ray or OpenTelemetry where microservices need it. Incidents get runbooks; postmortems feed back into architecture and guardrails."
+        ]
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Wise Accelerate for AWS Development",
+    "imageSrc": "/why-work-with-us/slide-2-3.jpg",
+    "imageAlt": "AWS cloud engineers collaborating at Wise Accelerate",
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Production-grade AWS patterns",
+        "body": "Wise Accelerate ships workloads that survive real traffic: IAM boundaries, encryption, backups, and observability are built in—not bolted on after launch. You get clear ownership of accounts, environments, and deployment pipelines so your team can operate AWS confidently."
+      },
+      {
+        "icon": "globe",
+        "title": "Flexible engagement models",
+        "body": "Augment your team for a migration or greenfield build, or outsource an outcome-based workstream. Wise Accelerate aligns to your timezone and tooling (Slack, Jira, Git) so AWS delivery feels like an extension of your org—not a black box."
+      },
+      {
+        "icon": "zap",
+        "title": "Senior cloud engineers",
+        "body": "Wise Accelerate's AWS specialists have delivered multi-account foundations, serverless platforms, and large-scale data paths. They communicate trade-offs in plain language: cost vs. latency vs. operational load—so stakeholders make informed decisions."
+      }
+    ],
+    "ctaLabel": "Get Free Trial",
+    "ctaHref": "/contact"
+  },
+  "ecosystem": {
+    "title": "The AWS Ecosystem Wise Accelerate Uses in Client Projects",
+    "categories": [
+      {
+        "title": "Compute",
+        "description": "Flexible compute for every workload—from VMs to containers to functions.",
+        "items": [
+          "Amazon EC2",
+          "AWS Lambda",
+          "Amazon ECS",
+          "Amazon EKS",
+          "AWS Fargate",
+          "AWS Batch",
+          "Elastic Beanstalk"
+        ]
+      },
+      {
+        "title": "Storage & content delivery",
+        "description": "Durable storage and global edge delivery for applications and static assets.",
+        "items": [
+          "Amazon S3",
+          "Amazon EBS",
+          "Amazon EFS",
+          "Amazon FSx",
+          "AWS Storage Gateway",
+          "Amazon CloudFront"
+        ]
+      },
+      {
+        "title": "Databases & caching",
+        "description": "Managed relational, NoSQL, and in-memory data stores with backup and HA options.",
+        "items": [
+          "Amazon RDS & Aurora",
+          "Amazon DynamoDB",
+          "Amazon ElastiCache",
+          "Amazon Redshift",
+          "Amazon OpenSearch Service",
+          "Amazon Neptune"
+        ]
+      },
+      {
+        "title": "Networking",
+        "description": "VPC design, DNS, load balancing, and hybrid connectivity.",
+        "items": [
+          "Amazon VPC",
+          "Elastic Load Balancing",
+          "AWS Transit Gateway",
+          "AWS PrivateLink",
+          "Amazon Route 53",
+          "AWS Direct Connect",
+          "AWS VPN"
+        ]
+      },
+      {
+        "title": "Security, identity & governance",
+        "description": "Authentication, authorization, encryption, and organization-wide guardrails.",
+        "items": [
+          "AWS IAM",
+          "AWS KMS",
+          "AWS Secrets Manager",
+          "AWS WAF",
+          "AWS Shield",
+          "AWS Organizations & Control Tower",
+          "AWS Config"
+        ]
+      },
+      {
+        "title": "DevOps, IaC & observability",
+        "description": "Automation, infrastructure as code, and monitoring across the SDLC.",
+        "items": [
+          "AWS CloudFormation",
+          "AWS CDK",
+          "Terraform",
+          "AWS CodePipeline & CodeBuild",
+          "Amazon CloudWatch",
+          "AWS X-Ray",
+          "AWS Systems Manager"
+        ]
+      }
+    ]
+  },
+  "keyThings": {
+    "title": "Key Things to Know About AWS",
+    "tabs": [
+      {
+        "id": "benefits",
+        "label": "Benefits of AWS",
+        "sections": [
+          {
+            "heading": "1. Breadth of services",
+            "body": "AWS offers hundreds of services spanning compute, storage, databases, ML, analytics, and IoT. That breadth lets teams evolve architecture in place—adopt managed services when you are ready, without a full rewrite."
+          },
+          {
+            "heading": "2. Global footprint & resilience",
+            "body": "Regions and Availability Zones let you design for fault tolerance and low latency for end users. Managed services handle patching, scaling, and replication patterns that would be costly to build solo."
+          },
+          {
+            "heading": "3. Pay-as-you-go economics",
+            "body": "Usage-based pricing and savings instruments (Savings Plans, Reserved Instances) reward right-sizing and disciplined architecture. Cost visibility is a shared responsibility: Wise Accelerate helps you instrument, tag, and review spend."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "label": "What is AWS used for?",
+        "sections": [
+          {
+            "heading": "Typical workloads",
+            "body": "Organizations run public websites, APIs, data pipelines, batch processing, ML training and inference, internal tools, and disaster recovery on AWS. The right mix of services depends on latency, compliance, and team skills."
+          },
+          {
+            "heading": "Migration & modernization",
+            "body": "Lift-and-shift to EC2, refactor to containers, or rebuild on serverless—each path has trade-offs. Wise Accelerate helps you sequence migrations, reduce risk, and validate cost and performance at each stage."
+          }
+        ]
+      },
+      {
+        "id": "facts",
+        "label": "Key facts about AWS",
+        "sections": [
+          {
+            "heading": "Shared responsibility model",
+            "body": "AWS secures the cloud; customers secure workloads in the cloud. That means IAM policies, network segmentation, encryption choices, and patch processes remain your responsibility—Wise Accelerate helps you implement them consistently."
+          },
+          {
+            "heading": "Continuous change",
+            "body": "New features and regions arrive regularly. A sustainable operating model includes upgrade paths, deprecation notices, and testing cadences so your AWS estate stays current and secure."
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "question": "Why do businesses choose AWS for cloud infrastructure?",
+        "answer": "AWS combines broad service coverage, global regions, and a mature partner ecosystem. Teams can start small and scale, adopt managed services to reduce operational load, and use enterprise agreements and support tiers when needed."
+      },
+      {
+        "question": "How do you control costs on AWS?",
+        "answer": "Wise Accelerate uses tagging, budgets, rightsizing, Savings Plans or Reserved Instances where appropriate, and serverless or auto-scaling where traffic is spiky. Regular reviews catch orphaned resources and misconfigurations that inflate bills."
+      },
+      {
+        "question": "What skills should I look for in AWS engineers?",
+        "answer": "Beyond certifications, look for production experience: IAM, networking, observability, security, IaC, and incident response. Strong engineers explain trade-offs and document decisions so your team can maintain systems long-term."
+      },
+      {
+        "question": "Can you help migrate our existing workloads to AWS?",
+        "answer": "Yes. Wise Accelerate assesses discovery, dependency mapping, TCO, and migration waves. Wise Accelerate uses proven patterns (e.g., AWS Migration Hub, Database Migration Service) and validates performance and cutover plans to minimize downtime."
+      },
+      {
+        "question": "How do you handle security and compliance on AWS?",
+        "answer": "Wise Accelerate implements least privilege, encryption, logging, and guardrails aligned to your risk profile. Controls can be mapped to common frameworks; evidence is easier when architecture and documentation are intentional from day one."
+      },
+      {
+        "question": "What ongoing maintenance is required for AWS environments?",
+        "answer": "Expect OS updates where you manage instances, patching strategies for managed services, certificate rotation, dependency updates, and review of IAM and network rules. Observability and alerting catch issues before users do."
+      }
+    ]
+  }
+}

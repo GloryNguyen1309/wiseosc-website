@@ -1,0 +1,205 @@
+{
+  "services": {
+    "title": "AI & Generative Development Services from Wise Accelerate",
+    "items": [
+      {
+        "title": "LLM-Powered Products & APIs",
+        "paragraphs": [
+          "Large language models (LLMs) are now a practical layer in software: summarization, classification, drafting, code assistance, and conversational UIs. Wise Accelerate designs features around real latency and cost constraints—choosing when to call an API, batch work, or cache—so GenAI augments your product without unpredictable bills or fragile UX.",
+          "Wise Accelerate integrates hosted models (OpenAI, Anthropic, Google Gemini, Azure OpenAI) or open-weight stacks where self-hosting matters for compliance. Prompt design, structured outputs (JSON/schema), streaming, and fallback behavior are treated as engineering concerns: versioned, tested, and observable in production."
+        ]
+      },
+      {
+        "title": "Retrieval-Augmented Generation (RAG)",
+        "paragraphs": [
+          "Generic LLMs hallucinate on private facts. Retrieval-augmented generation grounds answers in your documents: chunking, embeddings, vector stores, and re-ranking so responses cite the right context. Wise Accelerate builds RAG pipelines with clear data boundaries—who can see which corpus—and refresh strategies when source docs change.",
+          "Wise Accelerate evaluates RAG quality with offline datasets and online feedback: answer faithfulness, citation accuracy, and latency under load. Hybrid search (keyword + dense vectors), metadata filters, and query rewriting are applied where naive vector search is not enough."
+        ]
+      },
+      {
+        "title": "Agentic Workflows & Tool Use",
+        "paragraphs": [
+          "Agentic systems go beyond single-shot prompts: an LLM plans steps, calls tools (HTTP APIs, databases, code execution), and loops until a goal is met—under guardrails. Wise Accelerate maps your business process into explicit graphs or state machines (e.g. LangGraph-style) so behavior is inspectable, not a black-box loop.",
+          "Wise Accelerate implements function calling, structured tool schemas, human-in-the-loop approvals, and idempotent side effects so agents cannot silently corrupt data. Observability spans traces, token usage, and per-step outcomes—essential when debugging why an agent chose a wrong action."
+        ]
+      },
+      {
+        "title": "Safety, Evaluation & Responsible AI",
+        "paragraphs": [
+          "Production AI needs red-teaming, policy layers, and monitoring for jailbreaks, PII leakage, and toxic outputs. Wise Accelerate layers input/output filters, allowlists, and escalation paths where automation should stop. Evaluation is continuous: regression suites on prompts and model upgrades, not one-off demos.",
+          "For regulated contexts, Wise Accelerate aligns with data residency, audit logs, and model provenance. Documentation covers what data trains or fine-tunes models versus what is only inferred at runtime—so legal and security teams can sign off with clarity."
+        ]
+      },
+      {
+        "title": "Fine-Tuning, Embeddings & MLOps",
+        "paragraphs": [
+          "When few-shot prompting hits limits, fine-tuning or domain adapters can improve tone, format, or task accuracy. Wise Accelerate prepares datasets, trains with clear baselines, and compares against RAG-first approaches so you invest in the right lever. Embedding models and re-rankers are chosen to match your languages and domains.",
+          "Deployment pipelines include model versioning, A/B or shadow traffic, rollback, and cost dashboards. Wise Accelerate connects AI workloads to your existing CI/CD, secrets, and observability stack so ML and application teams share one operational model."
+        ]
+      },
+      {
+        "title": "AI Support, Drift & Roadmap",
+        "paragraphs": [
+          "Models and APIs evolve monthly: pricing, context windows, and behavior shift. Wise Accelerate runs maintenance that tracks deprecations, re-benchmarks quality after upgrades, and updates prompts or retrieval indexes when product data changes.",
+          "Quarterly reviews cover accuracy trends, spend, and new capabilities (multimodal, longer context, cheaper endpoints). Wise Accelerate helps you sequence roadmap items—deeper agents, better RAG, or on-device models—based on measured impact, not hype."
+        ]
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Wise Accelerate for AI & LLM Engineering",
+    "imageSrc": "/why-work-with-us/slide-2-3.jpg",
+    "imageAlt": "AI and machine learning engineers collaborating at Wise Accelerate",
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Production-minded GenAI",
+        "body": "Wise Accelerate ships AI features with SLIs/SLOs, cost caps, and failure modes thought through—not demo scripts. LLM calls sit behind the same rigor as the rest of your stack: retries, timeouts, structured errors, and runbooks when providers degrade."
+      },
+      {
+        "icon": "globe",
+        "title": "Agents & integrations that fit your stack",
+        "body": "Agentic workflows connect to your APIs, identity, and data stores with explicit contracts. Wise Accelerate aligns with your cloud (AWS, Azure, GCP), vector databases, and event systems so AI is embedded in your architecture—not a parallel science project."
+      },
+      {
+        "icon": "zap",
+        "title": "Engineers who speak model and product",
+        "body": "Wise Accelerate's team bridges prompt engineering, retrieval design, and classic software quality: types, tests, and code review. You get clear trade-off narratives—when RAG beats fine-tuning, when to avoid agents—so stakeholders make informed bets."
+      }
+    ],
+    "ctaLabel": "Get Free Trial",
+    "ctaHref": "/contact"
+  },
+  "ecosystem": {
+    "title": "The AI & LLM Stack Wise Accelerate Uses in Client Projects",
+    "categories": [
+      {
+        "title": "LLMs & Inference APIs",
+        "description": "Hosted and open models for text, code, and multimodal tasks—chosen for quality, latency, and compliance.",
+        "items": [
+          "OpenAI API (GPT family)",
+          "Anthropic Claude",
+          "Google Gemini / Vertex AI",
+          "Azure OpenAI Service",
+          "Meta Llama (open weights, self-hosted)",
+          "Mistral / Mixtral"
+        ]
+      },
+      {
+        "title": "Orchestration, Agents & Tooling",
+        "description": "Frameworks and patterns for chains, graphs, function calling, and long-running agentic workflows.",
+        "items": [
+          "LangChain / LangGraph",
+          "LlamaIndex",
+          "Semantic Kernel",
+          "Function calling & JSON mode",
+          "Streaming & SSE patterns"
+        ]
+      },
+      {
+        "title": "Retrieval & Vector Data",
+        "description": "Embeddings, vector search, and hybrid retrieval for RAG and semantic memory.",
+        "items": [
+          "OpenAI / Cohere / open embedding models",
+          "Pinecone, Weaviate, Qdrant",
+          "pgvector (PostgreSQL)",
+          "Amazon OpenSearch / Elasticsearch kNN"
+        ]
+      },
+      {
+        "title": "MLOps, Evals & Governance",
+        "description": "Versioning, testing, monitoring, and guardrails for models in production.",
+        "items": [
+          "Prompt & dataset versioning",
+          "Offline eval suites (accuracy, safety)",
+          "Online metrics & feedback loops",
+          "PII detection, content filters, audit logs"
+        ]
+      }
+    ]
+  },
+  "keyThings": {
+    "title": "Key Things to Know About AI, LLMs & Agentic Systems",
+    "tabs": [
+      {
+        "id": "benefits",
+        "label": "Why LLMs & agents matter",
+        "sections": [
+          {
+            "heading": "1. New UX and automation surface",
+            "body": "LLMs enable natural-language interfaces, copilots, and semi-autonomous workflows that were impractical with rules-only systems. Agentic patterns chain reasoning with tools—search, APIs, code—so software can complete multi-step tasks when boundaries and checks are explicit."
+          },
+          {
+            "heading": "2. Grounding beats raw scale",
+            "body": "The best products combine capable models with retrieval, business rules, and human oversight. RAG and structured outputs reduce hallucinations; evaluation harnesses catch regressions when prompts or models change. Wise Accelerate treats grounding and measurement as core product work, not afterthoughts."
+          },
+          {
+            "heading": "3. Cost and risk are manageable",
+            "body": "Token economics, caching, and smaller specialized models can keep spend predictable. Security, privacy, and compliance map cleanly when data flows and model choices are documented. Wise Accelerate helps you design for EU AI Act-style accountability and enterprise procurement expectations early."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "label": "Typical use cases",
+        "sections": [
+          {
+            "heading": "Customer & internal copilots",
+            "body": "Support agents, sales assistants, and internal knowledge bots grounded in wikis, tickets, and policies—often via RAG with permission-aware indexes."
+          },
+          {
+            "heading": "Document & workflow automation",
+            "body": "Extraction, classification, routing, and summarization across PDFs, emails, and ERP events; sometimes extended into agentic workflows that draft actions for human approval."
+          },
+          {
+            "heading": "Developer productivity",
+            "body": "Code assistance, test generation, and migration accelerators integrated into CI and IDEs—paired with review policies so AI augments rather than bypasses quality gates."
+          }
+        ]
+      },
+      {
+        "id": "facts",
+        "label": "Reality checks",
+        "sections": [
+          {
+            "heading": "LLMs are not databases",
+            "body": "They approximate patterns from training data; for factual business answers, combine models with retrieval, validation steps, or deterministic code. Wise Accelerate engineers for correctness where it matters and transparency where it builds trust."
+          },
+          {
+            "heading": "Agents need boundaries",
+            "body": "Open-ended agents can loop or misuse tools. Production agentic workflows specify allowed tools, max steps, escalation to humans, and transactional safety—patterns Wise Accelerate bakes into design from day one."
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "question": "What is the difference between traditional ML and LLM-based AI in products?",
+        "answer": "Classical ML often uses task-specific models on structured features (classification, forecasting). LLMs excel at language, code, and flexible reasoning with zero/few-shot prompts; they pair well with RAG and tools for factual or transactional work. Wise Accelerate picks the smallest effective approach—sometimes classical ML, sometimes LLMs, often both."
+      },
+      {
+        "question": "What is an agentic workflow?",
+        "answer": "An agentic workflow is a multi-step process where an LLM plans actions, invokes tools (APIs, retrieval, code), and iterates toward a goal—unlike a single prompt-response. Wise Accelerate implements agents with explicit state, permissions, and observability so behavior stays debuggable and safe."
+      },
+      {
+        "question": "How do you reduce hallucinations and keep answers on-brand?",
+        "answer": "Combine RAG with trusted corpora, structured outputs, validation layers (rules or smaller models), and human review for high-stakes actions. Wise Accelerate measures faithfulness and user feedback over time and versions prompts and indexes like any other critical dependency."
+      },
+      {
+        "question": "Can we use our own data without sending everything to a public API?",
+        "answer": "Yes—options include private endpoints (Azure OpenAI, VPC endpoints), self-hosted open models, on-prem vector stores, and strict data-handling agreements. Wise Accelerate designs partitioning so sensitive data never crosses boundaries your policy forbids."
+      },
+      {
+        "question": "How do you control cost and latency for LLM features?",
+        "answer": "Caching, batching, smaller models for simple tasks, streaming UX, and limits on context size all help. Wise Accelerate sets budgets per feature, profiles token usage, and chooses architectures (e.g. retrieve-then-generate) that avoid redundant model calls."
+      },
+      {
+        "question": "What should we plan for after launch?",
+        "answer": "Model upgrades, shifting API pricing, evolving documents for RAG, and new abuse patterns. Wise Accelerate recommends monitoring, eval suites, and a regular review cadence so AI features stay accurate, economical, and compliant as your product grows."
+      }
+    ]
+  }
+}

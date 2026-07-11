@@ -1,0 +1,225 @@
+{
+  "services": {
+    "title": "React Native Development Services from Wise Accelerate",
+    "items": [
+      {
+        "title": "Cross-Platform iOS & Android Apps",
+        "paragraphs": [
+          "Wise Accelerate builds production React Native applications that share business logic between iOS and Android while still respecting platform conventions—navigation patterns, safe areas, permissions, and store guidelines.",
+          "From greenfield apps to scaling existing codebases, Wise Accelerate structures screens, navigation (React Navigation / Expo Router), and feature modules so teams can parallelize work without constant merge pain."
+        ]
+      },
+      {
+        "title": "Expo & Managed Workflows",
+        "paragraphs": [
+          "When Expo fits your product, Wise Accelerate leverages EAS Build, EAS Update for over-the-air fixes, and a streamlined dev client workflow. Wise Accelerate only ejects or adds custom native code when you need capabilities beyond the managed API surface.",
+          "Expo accelerates iteration for many teams; Wise Accelerate still hardens releases with staged rollouts, crash reporting, and clear versioning so OTA updates never surprise users."
+        ]
+      },
+      {
+        "title": "Native Modules & Bridge Integration",
+        "paragraphs": [
+          "Some features require Kotlin/Swift: biometrics, Bluetooth, AR, or proprietary SDKs. Wise Accelerate implements native modules with clear JS contracts, error handling, and threading considerations so the bridge stays stable under load.",
+          "Wise Accelerate documents integration steps for your in-house native developers and keeps upgrade paths aligned with React Native releases."
+        ]
+      },
+      {
+        "title": "Performance: Lists, Animations & Startup Time",
+        "paragraphs": [
+          "Mobile users feel jank instantly. Wise Accelerate optimizes FlatList/SectionList patterns, memoization, image sizing, and Hermes-friendly bundles. Animations use Reanimated where appropriate for 60fps interactions.",
+          "Startup time matters for retention: Wise Accelerate analyzes cold start, defers non-critical work, and trims unnecessary dependencies so your app feels snappy on mid-range devices—not only flagships."
+        ]
+      },
+      {
+        "title": "Offline, Sync & Push Notifications",
+        "paragraphs": [
+          "Wise Accelerate designs offline-first or optimistic UIs when connectivity is unreliable, with clear conflict resolution and background sync policies. Push notification flows integrate with FCM/APNs and respect user consent and OS rules.",
+          "Deep linking and universal links are wired so marketing and support can drive users to the right screen inside the app."
+        ]
+      },
+      {
+        "title": "App Store Delivery & Maintenance",
+        "paragraphs": [
+          "Wise Accelerate supports release trains: beta distribution (TestFlight, Play Internal Testing), store listings, screenshots, and compliance questionnaires for permissions and data handling.",
+          "Ongoing work includes React Native upgrades, dependency audits, OS compatibility (new iOS/Android behaviors), and monitoring crashes in production with actionable dashboards."
+        ]
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Wise Accelerate for React Native Development",
+    "imageSrc": "/why-work-with-us/slide-2-3.jpg",
+    "imageAlt": "React Native mobile developers at Wise Accelerate",
+    "features": [
+      {
+        "icon": "shield",
+        "title": "Mobile-first delivery discipline",
+        "body": "Wise Accelerate ships apps that pass store review and behave well in the wild: permissions, background modes, memory, and battery are considered alongside feature velocity. React Native is not “web on phone”—Wise Accelerate treats it as real mobile engineering."
+      },
+      {
+        "icon": "globe",
+        "title": "Works with your release process",
+        "body": "Wise Accelerate fits your CI/CD (EAS, Fastlane, Bitrise, GitHub Actions), environments, and staged rollouts. Designers and PMs get builds early via TestFlight/Play tracks so feedback lands before users do."
+      },
+      {
+        "icon": "zap",
+        "title": "Engineers who know the RN stack",
+        "body": "Wise Accelerate's React Native developers understand navigation, native builds, Hermes, and platform quirks. They collaborate with backend teams on APIs and with native teams when bridges are required."
+      }
+    ],
+    "ctaLabel": "Get Free Trial",
+    "ctaHref": "/contact"
+  },
+  "ecosystem": {
+    "title": "The React Native Ecosystem Wise Accelerate Uses in Client Projects",
+    "categories": [
+      {
+        "title": "Core & runtime",
+        "description": "Foundation for building native mobile UIs with React.",
+        "items": [
+          "React Native",
+          "Hermes",
+          "JavaScriptCore",
+          "TypeScript",
+          "Metro bundler"
+        ]
+      },
+      {
+        "title": "Expo & tooling",
+        "description": "Accelerated workflows and cloud services for builds and updates.",
+        "items": [
+          "Expo SDK",
+          "EAS Build",
+          "EAS Update",
+          "Expo Dev Client",
+          "Expo Router"
+        ]
+      },
+      {
+        "title": "Navigation & UI",
+        "description": "Routing, layout, and component libraries tailored to mobile.",
+        "items": [
+          "React Navigation",
+          "NativeWind",
+          "React Native Paper",
+          "Tamagui",
+          "Reanimated",
+          "Gesture Handler"
+        ]
+      },
+      {
+        "title": "State & data",
+        "description": "Client state and networking patterns for mobile apps.",
+        "items": [
+          "TanStack Query",
+          "Zustand",
+          "Redux Toolkit",
+          "Apollo Client",
+          "Axios / fetch wrappers"
+        ]
+      },
+      {
+        "title": "Native & device capabilities",
+        "description": "Plugins and bridges for hardware and platform APIs.",
+        "items": [
+          "expo-* modules",
+          "React Native Community packages",
+          "Custom native modules (Swift/Kotlin)",
+          "Fastlane"
+        ]
+      },
+      {
+        "title": "Quality & observability",
+        "description": "Testing, crash reporting, and analytics for mobile releases.",
+        "items": [
+          "Jest",
+          "Detox",
+          "Maestro",
+          "Sentry",
+          "Firebase Crashlytics",
+          "Flipper (where applicable)"
+        ]
+      }
+    ]
+  },
+  "keyThings": {
+    "title": "Key Things to Know About React Native",
+    "tabs": [
+      {
+        "id": "benefits",
+        "label": "Benefits of React Native",
+        "sections": [
+          {
+            "heading": "1. One codebase, two stores",
+            "body": "Shared JavaScript/TypeScript logic and often most UI code reduces duplication versus fully native teams—especially when product iteration speed is critical. Platform-specific tweaks still happen where UX demands it."
+          },
+          {
+            "heading": "2. React skills transfer",
+            "body": "Teams already strong in React web can onboard to React Native faster than an entirely new mobile stack—though mobile concerns (navigation, lists, native builds) still require dedicated attention."
+          },
+          {
+            "heading": "3. Mature ecosystem",
+            "body": "Libraries exist for common mobile needs: maps, camera, biometrics, notifications. Choosing maintained dependencies and upgrade paths is essential as OS versions evolve."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "label": "What is React Native used for?",
+        "sections": [
+          {
+            "heading": "Consumer & B2B mobile apps",
+            "body": "From consumer subscriptions to field-service tools, React Native fits many product shapes. Fit depends on UI complexity, animation needs, and how often you must dip into fully native code."
+          },
+          {
+            "heading": "Brownfield & existing apps",
+            "body": "React Native can be adopted incrementally inside existing native apps (brownfield) or as greenfield. Wise Accelerate helps assess integration cost and team skills before committing."
+          }
+        ]
+      },
+      {
+        "id": "facts",
+        "label": "Key facts about React Native",
+        "sections": [
+          {
+            "heading": "Not identical to React web",
+            "body": "Layout uses Yoga (flexbox), not the DOM. Styling and gestures differ; performance tuning is mobile-specific. Treating RN like responsive web leads to painful rewrites."
+          },
+          {
+            "heading": "Upgrade cadence",
+            "body": "React Native and Xcode/Android toolchain versions move quickly. A maintenance plan for yearly OS updates and RN releases avoids painful big jumps."
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "question": "React Native vs fully native apps—how do we choose?",
+        "answer": "React Native suits many products that need faster iteration and shared logic across iOS and Android. Choose fully native when you need cutting-edge platform APIs, extreme graphics, or a team already 100% invested in Swift/Kotlin only."
+      },
+      {
+        "question": "Should we use Expo?",
+        "answer": "Expo is excellent for many teams: faster env setup, OTA updates, and managed builds. If you need custom native code not covered by Expo modules, Wise Accelerate evaluates prebuild workflow or a bare workflow with clear trade-offs."
+      },
+      {
+        "question": "How do you ensure app performance on low-end devices?",
+        "answer": "Wise Accelerate profiles on real devices, optimizes lists and images, uses Hermes, and avoids unnecessary re-renders. Performance budgets and crash-free session targets are tracked release over release."
+      },
+      {
+        "question": "Can React Native apps match native look and feel?",
+        "answer": "Yes, when designers and engineers align on platform guidelines. Wise Accelerate uses platform-specific components where it matters and tests on both iOS and Android—not only simulators."
+      },
+      {
+        "question": "How do updates and app store releases work?",
+        "answer": "JS-level fixes can ship via OTA (where policy allows) with EAS Update; native changes require store builds. Wise Accelerate coordinates versioning, release notes, and rollback plans."
+      },
+      {
+        "question": "What maintenance is required after launch?",
+        "answer": "Expect OS updates, dependency upgrades, React Native version bumps, SDK updates from Apple/Google, and monitoring crashes. A quarterly health review keeps technical debt visible and manageable."
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "javascript": {
+    "services": {
+      "title": "JavaScript Development Services from Wise Accelerate",
+      "items": [
+        {
+          "title": "JavaScript Front End",
+          "paragraphs": [
+            "JavaScript is instrumental in crafting innovative and interactive designs across enterprise systems, landing pages, mobile applications, and more software solutions.",
+            "Wise Accelerate's front-end web developers use JavaScript in combination with HTML and CSS to build the visible parts of websites and apps that improve the user experience. Wise Accelerate uses frameworks like React, Angular, and Vue.js to enhance the interactivity and responsiveness of user interfaces."
+          ]
+        },
+        {
+          "title": "JavaScript Back End",
+          "paragraphs": [
+            "While JavaScript is primarily involved in front-end web development, developers also use it in back-end development to build and maintain the infrastructure that allows websites and apps to function. It plays a pivotal role in building the server-side logic that powers everything from data processing and server management to business logic.",
+            "Wise Accelerate's developers are proficient in JavaScript back-end technologies like Node.js and Express.js, as well as tools like npm for package management and MongoDB for database integration. This toolbox allows us to build robust and scalable server-side solutions that integrate cleanly with your front-end and third-party services."
+          ]
+        },
+        {
+          "title": "JavaScript Web Development Services",
+          "paragraphs": [
+            "In addition to front-end features like forms and animation, JavaScript enables users to easily load content. JavaScript also supports external applications like PDFs and widgets.",
+            "Wise Accelerate's JavaScript web development services range from building simple web applications to developing feature-rich websites and interactive web pages. Wise Accelerate leverages frameworks like React, Angular, and Vue.js to ship maintainable codebases with clear testing and deployment pipelines."
+          ]
+        },
+        {
+          "title": "JavaScript Enterprise Development",
+          "paragraphs": [
+            "Build scalable and secure applications tailored to the complex needs of large enterprises. JavaScript offers front-end capabilities and facilitates back-end functionality through a unified language ecosystem.",
+            "Wise Accelerate's enterprise-level solutions are designed to support complex IT goals and operational processes with a focus on efficiency, integration, and customization. Wise Accelerate leverages technologies like Node.js and Express.js alongside identity, observability, and governance patterns your security team expects."
+          ]
+        },
+        {
+          "title": "JavaScript Cross-Platform Mobile App Development",
+          "paragraphs": [
+            "Cross-platform development saves time and resources. In the mobile-centric landscape, JavaScript is often used to develop cross-platform web and mobile applications for iOS, Android, and Windows with shared business logic.",
+            "Using JavaScript and frameworks like React Native, Ionic, Apache Cordova, and Titanium, Wise Accelerate creates engaging and responsive apps while keeping release velocity high and duplication low."
+          ]
+        },
+        {
+          "title": "JavaScript Support & Maintenance",
+          "paragraphs": [
+            "In a continuously evolving digital landscape, ongoing support and maintenance are essential to address issues, implement updates, and strengthen features to stay competitive.",
+            "Wise Accelerate's developers and support engineers use monitoring tools to identify performance regressions, dependency risks, and user-reported defects. Wise Accelerate helps you plan upgrades, security patches, and roadmap-aligned enhancements so your JavaScript stack stays healthy long after launch."
+          ]
+        }
+      ]
+    },
+    "whyChoose": {
+      "title": "Why Choose Wise Accelerate for JavaScript Development",
+      "imageSrc": "/why-work-with-us/slide-2-3.jpg",
+      "imageAlt": "JavaScript development team at Wise Accelerate",
+      "features": [
+        {
+          "icon": "shield",
+          "title": "Flexible Engagement Models",
+          "body": "Wise Accelerate offers engagement models tailored to clients' needs, providing versatile options for collaboration. Whether you need a dedicated team or a full-scale solution, Wise Accelerate is flexible and adaptable. You can choose the JavaScript development model that works best for your business: a dedicated team, staff augmentation, or software outsourcing."
+        },
+        {
+          "icon": "globe",
+          "title": "Nearshore, Timezone-Aligned Talent",
+          "body": "Wise Accelerate's nearshore model ensures close collaboration by providing you with access to skilled professionals in geographic proximity with minimal time-zone differences. Pairing you with tech experts in your vicinity facilitates real-time communication, improves project efficiency, and fosters a more collaborative working relationship."
+        },
+        {
+          "icon": "zap",
+          "title": "Top 3% of Tech Talent",
+          "body": "Wise Accelerate's rigorous vetting ensures only top-tier JavaScript experts and tech professionals represent the team—people who ship production code, communicate clearly, and own outcomes end to end."
+        }
+      ],
+      "ctaLabel": "Get Free Trial",
+      "ctaHref": "/contact"
+    },
+    "ecosystem": {
+      "title": "The JavaScript Ecosystem Wise Accelerate Has Used in Client Projects",
+      "categories": [
+        {
+          "title": "Front-End Libraries & Frameworks",
+          "description": "Frameworks and libraries for building user interfaces and handling the view layer of web and mobile apps.",
+          "items": [
+            "React",
+            "Vue.js",
+            "Ember.js",
+            "Preact",
+            "Svelte",
+            "Aurelia",
+            "Polymer",
+            "Backbone.js",
+            "Angular"
+          ]
+        },
+        {
+          "title": "Full-Stack Frameworks",
+          "description": "Tools that facilitate both front-end and back-end development for end-to-end solutions.",
+          "items": [
+            "Meteor",
+            "Next.js",
+            "Nest.js"
+          ]
+        },
+        {
+          "title": "Server-Side Platforms",
+          "description": "Technologies for back-end development, server-side scripting, and web servers.",
+          "items": [
+            "Node.js",
+            "Express.js",
+            "Fastify"
+          ]
+        },
+        {
+          "title": "Client-Side Enhancers",
+          "description": "Tools that enrich the client-side experience: DOM manipulation, events, and dynamic behavior.",
+          "items": [
+            "jQuery",
+            "Stimulus",
+            "Alpine.js"
+          ]
+        },
+        {
+          "title": "Data Layer & State Management",
+          "description": "Managing application state and keeping the UI consistent with underlying data.",
+          "items": [
+            "Redux",
+            "Zustand",
+            "MobX",
+            "TanStack Query",
+            "RxJS"
+          ]
+        },
+        {
+          "title": "Testing & Development Tools",
+          "description": "Utilities for testing, debugging, linting, and quality gates in the JavaScript toolchain.",
+          "items": [
+            "Jest",
+            "Vitest",
+            "Cypress",
+            "Playwright",
+            "ESLint",
+            "Prettier",
+            "Webpack",
+            "Vite"
+          ]
+        }
+      ]
+    },
+    "keyThings": {
+      "title": "Key Things to Know About JavaScript",
+      "tabs": [
+        {
+          "id": "benefits",
+          "label": "Benefits of JavaScript",
+          "sections": [
+            {
+              "heading": "1. Enhanced User Experiences",
+              "body": "JavaScript enables fast, responsive interfaces and smooth interactions—real-time updates, interactive widgets, and progressive enhancement. Teams can iterate on UX without waiting for full page reloads, which improves engagement and conversion when performance budgets are respected."
+            },
+            {
+              "heading": "2. Versatility Across Platforms",
+              "body": "From dynamic web pages to server-side applications and even mobile via cross-platform frameworks, JavaScript lets organizations reuse skills and patterns across the stack. That versatility reduces context switching and accelerates delivery when architecture is disciplined."
+            },
+            {
+              "heading": "3. Robust Ecosystem of Libraries and Frameworks",
+              "body": "JavaScript powers a vast share of the web and is supported by a deep ecosystem: React, Angular, Vue, and countless specialized libraries. Mature tooling means pre-built components, strong community answers, and faster onboarding for new engineers—when teams standardize on a sensible subset of the stack."
+            }
+          ]
+        },
+        {
+          "id": "uses",
+          "label": "What is JavaScript used for?",
+          "sections": [
+            {
+              "heading": "Web & product interfaces",
+              "body": "JavaScript drives interactive UIs in browsers, single-page applications, and hybrid mobile shells. It is also used for server-side APIs with Node.js, enabling one language across client and server."
+            },
+            {
+              "heading": "Automation & tooling",
+              "body": "Build scripts, CLIs, and developer tooling are often written in JavaScript or TypeScript. That means your product and your infrastructure can share languages and libraries where it makes sense."
+            }
+          ]
+        },
+        {
+          "id": "facts",
+          "label": "Key facts about JavaScript",
+          "sections": [
+            {
+              "heading": "Ubiquity and adoption",
+              "body": "JavaScript remains one of the most widely used languages for web development, with massive ecosystem investment and frequent language updates. Staying current with LTS runtimes and security patches is essential for production systems."
+            },
+            {
+              "heading": "Type safety",
+              "body": "Many teams adopt TypeScript for JavaScript-scale codebases to catch errors earlier and improve refactor safety. Wise Accelerate can help you introduce typing gradually without blocking delivery."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "items": [
+        {
+          "question": "Why is JavaScript a preferred choice for web development in modern businesses?",
+          "answer": "JavaScript powers a vast share of the web. It is a preferred choice for web development due to its versatility, ubiquity, and vast ecosystem of frameworks like React and Angular. JavaScript facilitates rapid development, code reuse, and scalability when paired with testing, observability, and clear architecture."
+        },
+        {
+          "question": "Can JavaScript be used for both front-end and back-end development?",
+          "answer": "Yes. JavaScript is the default language for front-end interactivity in browsers, and with Node.js and modern frameworks it is also used for APIs, microservices, and server-side rendering. Teams can share types, utilities, and conventions across the stack."
+        },
+        {
+          "question": "What key skills and experience should I look for in skilled JavaScript developers?",
+          "answer": "Look for production experience beyond syntax: async programming, performance profiling, security basics (XSS, CSRF, dependency management), testing, CI/CD, and clear communication. Strong engineers also understand browser APIs, Node.js runtime behavior, and how to structure large applications."
+        },
+        {
+          "question": "What are the ongoing maintenance requirements for a JavaScript-based application?",
+          "answer": "Expect dependency updates, security patches, browser compatibility checks, and performance monitoring. Frameworks and bundlers evolve; a maintenance plan covers upgrades, regression testing, and observability so issues are caught before users do."
+        },
+        {
+          "question": "What key attributes should be considered when partnering with JavaScript development companies?",
+          "answer": "Evaluate delivery transparency, code quality practices, ownership, communication, and relevant case studies. The right partner documents decisions, tests critical paths, and plans for handoff—not just sprint velocity."
+        },
+        {
+          "question": "What are the various types of software applications that typically use JavaScript?",
+          "answer": "Common examples include SaaS dashboards, e-commerce storefronts, marketing sites with rich interactivity, mobile apps built with React Native or similar, internal tools, and Node.js backends. The exact use case depends on product requirements and non-functional needs like scale and compliance."
+        }
+      ]
+    }
+  }
+}
